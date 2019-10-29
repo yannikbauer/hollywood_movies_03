@@ -1,7 +1,7 @@
 ## Info / README
 
 ### General movie stimulus info
-This is version 2 of the Hollywood movie stimulus, a sequence of randomly selected short 5 s-scene snippets from various movies, to be presented in experiments in the Busse Lab involving in vivo extracellular ephys of awake, head-fixed, behaving mice. Version 1 (for details, see hollywood_movies_01) used the exact same 64x64 pixel frames as in previous retina recordings in the Euler Lab, but at 4 pix/deg, it was found to be to small, covering only 16 deg visual angle. Version 2 now contains both high-res 424x264 and low-res 212x132 rectangular frames that can cover the entire stimulus screen and match the original Tübingen frames in terms of spatial frequency content. Details below.
+This is version 3 of the Hollywood movie stimulus, a sequence of randomly selected short 5 s-scene snippets from various movies, to be presented in experiments in the Busse Lab involving in vivo extracellular ephys of awake, head-fixed, behaving mice. Version 1 (for details, see hollywood_movies_01) used the exact same 64x64 pixel frames as in previous retina recordings in the Euler Lab, but at 4 pix/deg, it was found to be to small, covering only 16 deg visual angle. Version 2 was building on that but using the original source files from the Tolias Lab, Houston, for stimulus generation, to contain both high-res 424x264 and low-res 212x132 rectangular frames that can cover the entire stimulus screen and match the original Tübingen frames in terms of spatial frequency content. Version 3 now got rid of the histogram equalization step used in both version 1 and 2, and uses only high-res 424x264 frames that are presented without gamma linearization, at both full-screen and half-screen. Details below.
 
 The source high-res Hollywood movies came from the Tolias Lab, Baylor College of Medicine, Houston, Texas (by Emmanouil Froudarakis, made available by Alex Ecker).
 
@@ -29,13 +29,13 @@ The source high-res Hollywood movies came from the Tolias Lab, Baylor College of
 - Munich movies
   - presented to mouse during dLGN and V1 recordings
   - using a 47x29 cm LCD screen at 25 cm distance
-  - Version 1
+  - Version 1 (older version)
     - used same 64x64 retina movie crops
     - presented at 4 pix/deg on 47x29 cm screen at 25 cm distance -> ca. 16x16º
     - 30 fps
     - histogram equalized
     - saved as .tiff and .avi files
-  - Version 2
+  - Version 2 (older version)
     - 30 fps
     - histogram equalized    
     - used 448x252 high-res frames from Houston and created two stimulus versions to be tested:
@@ -51,6 +51,20 @@ The source high-res Hollywood movies came from the Tolias Lab, Baylor College of
     - In Expo, the degree numbers for the 47x29 cm screen at 25 cm distance are determined not by standard trig assuming a flat screen, but by small-angle approximation      
       - this means that the 106x66º indicated in Expo on a 47x29 cm screen at 25 cm distance would be 86x60º by standard trigonometry
       - this discrepancy is currently accepted because the small angle approximation preserves pixel sizes in the screen center better than standard trig and we decided that we care most about the central pixels, because this is how the pix/deg were calculated in Houston and because this is presumably also closest to the pix/deg-calculation in Tübingen
+    - In Expo, we tested both corrected (linearized) and uncorrected (non-linearized) gamma calibration
+  - Version 3 (this version)
+    - 30 fps
+    - NOT histogram equalized    
+    - used 448x252 high-res frames from Houston and created one stimulus versions to be tested:
+      1. high-res 424x264
+        - created by upsampling 448x252 high-res frames into 512x288 frames, which is twice the size of the downsampled frames in Houston, so that we can use twice the spatial resolution to present the same image content at the same size as in Houston or Tübingen
+        - cropped to 424x264 to match the dimensions of the 47x29 cm monitor at 25 cm distance
+        - if presented @ 4 pix/deg = 106x66º (full-screen): same spatial frequency content but twice spatial resolution of Houston
+        - if presented @ 8 pix/deg = 53x33º (half-screen): same spatial frequency content but twice spatial resolution of Tuebingen
+    - In Expo, the degree numbers for the 47x29 cm screen at 25 cm distance are determined not by standard trig assuming a flat screen, but by small-angle approximation      
+      - this means that the 106x66º indicated in Expo on a 47x29 cm screen at 25 cm distance would be 86x60º by standard trigonometry
+      - this discrepancy is currently accepted because the small angle approximation preserves pixel sizes in the screen center better than standard trig and we decided that we care most about the central pixels, because this is how the pix/deg were calculated in Houston and because this is presumably also closest to the pix/deg-calculation in Tübingen
+    - In Expo, we do not correct (linearize) gamma, unlike our artificial stimuli, but use uncorrected (non-linearized). Details below in section 'Munich stimulus presentation'.
 
 ### Tübingen movie stimulus structure & presentation
 
@@ -68,13 +82,13 @@ In Tübingen, we use QDSpy for stimulus presentation. The input file there is a 
 
 ### Munich movie stimulus structure
 
-The Munich movies are based directly on the high-res movies from Houston. The movie frame rate is 30 Hz and each scene is 5 s long, resulting in 150 frames per scene. Like in Houston and Tübingen, the image frames are preprocessed via histogram equalization (over the entire set of frames incl test and training in one set).
+The Munich movies are based directly on the high-res movies from Houston. The movie frame rate is 30 Hz and each scene is 5 s long, resulting in 150 frames per scene. Unlike in Houston and Tübingen, the image frames are NOT preprocessed via histogram equalization anymore in version 3.
 
 Some basic parameters: 
 - do_resize = True # resize source images or not
 - frame_shape_res = [512, 288] #[256, 144]# shape of resized frame, used only if resizing frames
-- frame_shape = [424, 264] #[212, 132]# shape of output frames (may be crops from resampled frame, but not larger)
-- pix_per_deg = 4 # pixels per degree: 4 in retina experiments; 2 in Houston
+- frame_shape = [424, 264] # shape of output frames (may be crops from resampled frame, but not larger)
+- pix_per_deg = 8 # pixels per degree: 8 in retina experiments; 4 in Houston
 - total_dur = 30 # desired total movie sequence duration (min)
 - scene_dur = 5 # scene duration (s)
 - fps = 30 # framerate of original and output movies (frames per second) -> 150 fpscene
@@ -97,10 +111,9 @@ See code sections below for calculations for number of scenes, durations and par
 ### Munich stimulus presentation
 
 The Busse Lab in Munich uses Expo for stimulus presentation (in 2019), and needed to adapt the stimulus accordingly. Instead of creating a .png matrix from the .tiff sequence (as in the Euler Lab, Tuebingen), we present .avi movie files. One .avi is created for the test sequence, but for the training sequences, we generate 10 random sequences of the 288 training scenes, which are split into 8 .avi files around which the test sequence is repeated 9 times. Currently, in each experiment, we manually pick which one of the 10 random sequences to play on expo.
-There are currently two versions of the movie which we are testing, one high-res and one low-res.
+We have now settled on testing only the high-res frames.
 
-The movies are presented on a 47x29 cm Samsung SynMaster 2233. For details on image frames, see above. The gamma calibration on our screen is usually corrected (linearized) for other stimuli. For this movie stimulus, which is already histogram equalized, we are testing both the corrected (linearized) and the uncorrected (non-linearized) gamma calibration. We are testing uncorrected gamma because cameras already record image frames with inverse gamma and applying a gamma correction makes the images look too bright and noisy. We are testing corrected gamma, because otherwise the uniform pixel intensity distribution from the histogram equalization might be compromised.
-
+The movies are presented on a 47x29 cm Samsung SynMaster 2233. For details on image frames, see above. The gamma calibration on our screen is usually corrected (linearized) for other stimuli. Since movie images are typically recorded with inverse gamma by the camera, we are using the standard uncorrected (non-linearized) gamma calibration of the screen pixel intensities.
 
 ### Data & code structure
 
@@ -112,11 +125,7 @@ The movies are presented on a 47x29 cm Samsung SynMaster 2233. For details on im
   - saves image stacks as "../data/processed/hmovTest.tiff" and "../data/processed/hmovTrain.tiff"
   - for reproducibility, the meta data for each scene (source file name, start frame, frame x/y-pos, and first/last index in the .tiff stacks) are saveed in "..data/processed/test_meta.json" and "..data/processed/training_meta.json"
 
-- "02_preprocess_image_contrast.ipynb":
-  - preprocesses movies in order to enhance global contrasts and ensure a uniform distribution of pixel luminances via histogram equalization
-  - saves results as "../data/processed/hmovTestCorrected.tiff" and "../data/processed/hmovTrainCorrected.tiff"
-
-- "03_make_rnd_avi_sequences.ipynb":
+- "02_make_rnd_avi_sequences.ipynb":
   - Converts original .tiff sequence into one test and 10 pseudo-randomized .avi scene sequences.
   - test sequence:
     - saves .tiff stack simply as "../data/processed/hmov_test.avi"
@@ -128,7 +137,7 @@ The movies are presented on a 47x29 cm Samsung SynMaster 2233. For details on im
 - utils.py
   - contains functions used in "02_preprocess_image_contrast.ipynb" and "03_make_rnd_avi_sequences.ipynb"
 
-- 'hollymov_opto_02.exxp'
+- 'hollymov_opto_03.exxp'
   - file programming details
     - gamma calibration: uncorrected: set Monitor -> calibrate -> linear formula
     - show in 30 Hz: set synchronisation to 'Free Run'
@@ -139,8 +148,8 @@ The movies are presented on a 47x29 cm Samsung SynMaster 2233. For details on im
     - train_opto_[0-8]: presents random training movie sequence for 180 s with 1 s opto pulses (p=0.5) to test opto-effect on stimulus-evoked activity; there are 8 parts, each of which gets presented 1x
   - parameters: 
     - size: size of the stimulus frame, automatically retrieved depending on source file
-      - 212 for 212x132 and 424 for 424x264 movies
-    - diaDeg: diameter in degrees of stimulus presentation. Since we present either the 212x132 at full- or half-screen (= 2 or 4 pix/deg), or the 424x264 at full- or half-screen (= 4 or 8 pix/deg), this can be either 106x66º (full) or 53x33º (half). Note that expo only saves either 106 or 53.
+      - 424 for 424x264 movies
+    - diaDeg: diameter in degrees of stimulus presentation. Since we present the 424x264 at either full- or half-screen (= 4 or 8 pix/deg), this can be either 106x66º (full) or 53x33º (half). Note that expo only saves either 106 or 53.
     - xPix, yPix: x- and y-position (in pixels) of the stimulus center. Typically 0,0 for now.
   - random sequence number:
     - this unfortunately does not get saved as a parameter, and the appropriate source files need to be manually selected before each experiment

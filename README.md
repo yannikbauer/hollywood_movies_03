@@ -23,6 +23,8 @@ The source high-res Hollywood movies came from the Tolias Lab, Baylor College of
   - presented to mouse retinae during 2P imaging of retinal cells
   - cropped the downsampled 256x144 Houston database movies to 64x64
   - presented at 4 pix/deg -> ca. 16x16º
+  - recording field size: 64x64 pixel
+  - recording field magnification factor: 0.65
   - 30 fps
   - histogram equalized
   - saved as .tiff and .png files

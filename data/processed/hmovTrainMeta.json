@@ -1,5 +1,8 @@
 {
     "general": {
+        "version_num": 3,
+        "test_v_train": "train",
+        "histogram_equ": false,
         "frame_shape_orig": [
             448,
             252
@@ -10,2610 +13,2610 @@
             288
         ],
         "frame_shape": [
-            212,
-            132
+            424,
+            264
         ],
         "total_dur_min": 30,
         "scene_dur_sec": 5,
         "fps": 30,
-        "n_unique_train_scenes": 288,
-        "n_train_parts": 8,
-        "n_scenes_per_train_part": 36,
+        "n_unique_scenes_train": 288,
+        "n_parts_train": 8,
+        "n_scenes_per_part_train": 36,
         "percent_train": 0.8,
         "percent_test": 0.2
     },
     "scene": [
         {
             "scene_idx": 0,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_076.mov",
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_076.mov",
             "start_frame": 1560,
-            "start_x": 83,
-            "start_y": 137,
+            "start_x": 80,
+            "start_y": 19,
             "first": 0,
-            "last": 150
+            "last": 149
         },
         {
             "scene_idx": 1,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_022.mov",
-            "start_frame": 413,
-            "start_x": 42,
-            "start_y": 75,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_022.mov",
+            "start_frame": 207,
+            "start_x": 9,
+            "start_y": 10,
             "first": 150,
-            "last": 300
+            "last": 299
         },
         {
             "scene_idx": 2,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_068.mov",
-            "start_frame": 836,
-            "start_x": 285,
-            "start_y": 3,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_068.mov",
+            "start_frame": 1099,
+            "start_x": 24,
+            "start_y": 4,
             "first": 300,
-            "last": 450
+            "last": 449
         },
         {
             "scene_idx": 3,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_099.mov",
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_099.mov",
             "start_frame": 516,
-            "start_x": 298,
-            "start_y": 97,
+            "start_x": 42,
+            "start_y": 1,
             "first": 450,
-            "last": 600
+            "last": 599
         },
         {
             "scene_idx": 4,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_009.mov",
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_009.mov",
             "start_frame": 1303,
-            "start_x": 244,
-            "start_y": 80,
+            "start_x": 80,
+            "start_y": 9,
             "first": 600,
-            "last": 750
+            "last": 749
         },
         {
             "scene_idx": 5,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_005.mov",
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_005.mov",
             "start_frame": 598,
-            "start_x": 12,
-            "start_y": 96,
+            "start_x": 19,
+            "start_y": 12,
             "first": 750,
-            "last": 900
+            "last": 899
         },
         {
             "scene_idx": 6,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_025.mov",
-            "start_frame": 1230,
-            "start_x": 107,
-            "start_y": 83,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_025.mov",
+            "start_frame": 1528,
+            "start_x": 78,
+            "start_y": 11,
             "first": 900,
-            "last": 1050
+            "last": 1049
         },
         {
             "scene_idx": 7,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_125.mov",
-            "start_frame": 1041,
-            "start_x": 69,
-            "start_y": 71,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_125.mov",
+            "start_frame": 1363,
+            "start_x": 17,
+            "start_y": 5,
             "first": 1050,
-            "last": 1200
+            "last": 1199
         },
         {
             "scene_idx": 8,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_135.mov",
-            "start_frame": 372,
-            "start_x": 299,
-            "start_y": 132,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_135.mov",
+            "start_frame": 839,
+            "start_x": 43,
+            "start_y": 4,
             "first": 1200,
-            "last": 1350
+            "last": 1349
         },
         {
             "scene_idx": 9,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_048.mov",
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_048.mov",
             "start_frame": 1533,
-            "start_x": 139,
-            "start_y": 104,
+            "start_x": 11,
+            "start_y": 16,
             "first": 1350,
-            "last": 1500
+            "last": 1499
         },
         {
             "scene_idx": 10,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_100.mov",
-            "start_frame": 133,
-            "start_x": 62,
-            "start_y": 124,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_100.mov",
+            "start_frame": 1640,
+            "start_x": 5,
+            "start_y": 22,
             "first": 1500,
-            "last": 1650
+            "last": 1649
         },
         {
             "scene_idx": 11,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_022.mov",
-            "start_frame": 819,
-            "start_x": 120,
-            "start_y": 154,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_022.mov",
+            "start_frame": 62,
+            "start_x": 51,
+            "start_y": 20,
             "first": 1650,
-            "last": 1800
+            "last": 1799
         },
         {
             "scene_idx": 12,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_079.mov",
-            "start_frame": 1090,
-            "start_x": 43,
-            "start_y": 122,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_079.mov",
+            "start_frame": 434,
+            "start_x": 60,
+            "start_y": 5,
             "first": 1800,
-            "last": 1950
+            "last": 1949
         },
         {
             "scene_idx": 13,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_039.mov",
-            "start_frame": 492,
-            "start_x": 54,
-            "start_y": 142,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_039.mov",
+            "start_frame": 1090,
+            "start_x": 43,
+            "start_y": 12,
             "first": 1950,
-            "last": 2100
+            "last": 2099
         },
         {
             "scene_idx": 14,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_057.mov",
-            "start_frame": 754,
-            "start_x": 67,
-            "start_y": 59,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_057.mov",
+            "start_frame": 54,
+            "start_x": 14,
+            "start_y": 11,
             "first": 2100,
-            "last": 2250
+            "last": 2249
         },
         {
             "scene_idx": 15,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_036.mov",
-            "start_frame": 80,
-            "start_x": 21,
-            "start_y": 41,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_036.mov",
+            "start_frame": 754,
+            "start_x": 67,
+            "start_y": 16,
             "first": 2250,
-            "last": 2400
+            "last": 2399
         },
         {
             "scene_idx": 16,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_067.mov",
-            "start_frame": 1317,
-            "start_x": 58,
-            "start_y": 46,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_067.mov",
+            "start_frame": 971,
+            "start_x": 21,
+            "start_y": 9,
             "first": 2400,
-            "last": 2550
+            "last": 2549
         },
         {
             "scene_idx": 17,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_038.mov",
-            "start_frame": 967,
-            "start_x": 22,
-            "start_y": 126,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_038.mov",
+            "start_frame": 1317,
+            "start_x": 58,
+            "start_y": 14,
             "first": 2550,
-            "last": 2700
+            "last": 2699
         },
         {
             "scene_idx": 18,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_091.mov",
-            "start_frame": 600,
-            "start_x": 28,
-            "start_y": 24,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_091.mov",
+            "start_frame": 967,
+            "start_x": 22,
+            "start_y": 1,
             "first": 2700,
-            "last": 2850
+            "last": 2849
         },
         {
             "scene_idx": 19,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_062.mov",
-            "start_frame": 1356,
-            "start_x": 258,
-            "start_y": 120,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_062.mov",
+            "start_frame": 600,
+            "start_x": 28,
+            "start_y": 0,
             "first": 2850,
-            "last": 3000
+            "last": 2999
         },
         {
             "scene_idx": 20,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_076.mov",
-            "start_frame": 1463,
-            "start_x": 4,
-            "start_y": 104,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_076.mov",
+            "start_frame": 1356,
+            "start_x": 2,
+            "start_y": 23,
             "first": 3000,
-            "last": 3150
+            "last": 3149
         },
         {
             "scene_idx": 21,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_012.mov",
-            "start_frame": 175,
-            "start_x": 213,
-            "start_y": 104,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_012.mov",
+            "start_frame": 1540,
+            "start_x": 41,
+            "start_y": 8,
             "first": 3150,
-            "last": 3300
+            "last": 3299
         },
         {
             "scene_idx": 22,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_054.mov",
-            "start_frame": 280,
-            "start_x": 213,
-            "start_y": 151,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_054.mov",
+            "start_frame": 1436,
+            "start_x": 47,
+            "start_y": 21,
             "first": 3300,
-            "last": 3450
+            "last": 3449
         },
         {
             "scene_idx": 23,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_029.mov",
-            "start_frame": 1192,
-            "start_x": 86,
-            "start_y": 61,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_029.mov",
+            "start_frame": 203,
+            "start_x": 42,
+            "start_y": 8,
             "first": 3450,
-            "last": 3600
+            "last": 3599
         },
         {
             "scene_idx": 24,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_107.mov",
-            "start_frame": 638,
-            "start_x": 103,
-            "start_y": 15,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_107.mov",
+            "start_frame": 280,
+            "start_x": 54,
+            "start_y": 21,
             "first": 3600,
-            "last": 3750
+            "last": 3749
         },
         {
             "scene_idx": 25,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_024.mov",
-            "start_frame": 79,
-            "start_x": 26,
-            "start_y": 4,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_024.mov",
+            "start_frame": 471,
+            "start_x": 23,
+            "start_y": 8,
             "first": 3750,
-            "last": 3900
+            "last": 3899
         },
         {
             "scene_idx": 26,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_006.mov",
-            "start_frame": 130,
-            "start_x": 254,
-            "start_y": 74,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_006.mov",
+            "start_frame": 86,
+            "start_x": 61,
+            "start_y": 7,
             "first": 3900,
-            "last": 4050
+            "last": 4049
         },
         {
             "scene_idx": 27,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_070.mov",
-            "start_frame": 1127,
-            "start_x": 117,
-            "start_y": 142,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_070.mov",
+            "start_frame": 929,
+            "start_x": 15,
+            "start_y": 15,
             "first": 4050,
-            "last": 4200
+            "last": 4199
         },
         {
             "scene_idx": 28,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_023.mov",
-            "start_frame": 535,
-            "start_x": 299,
-            "start_y": 140,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_023.mov",
+            "start_frame": 1393,
+            "start_x": 26,
+            "start_y": 4,
             "first": 4200,
-            "last": 4350
+            "last": 4349
         },
         {
             "scene_idx": 29,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_005.mov",
-            "start_frame": 11,
-            "start_x": 11,
-            "start_y": 4,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_005.mov",
+            "start_frame": 130,
+            "start_x": 72,
+            "start_y": 11,
             "first": 4350,
-            "last": 4500
+            "last": 4499
         },
         {
             "scene_idx": 30,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_041.mov",
-            "start_frame": 1030,
-            "start_x": 36,
-            "start_y": 37,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_041.mov",
+            "start_frame": 1098,
+            "start_x": 48,
+            "start_y": 14,
             "first": 4500,
-            "last": 4650
+            "last": 4649
         },
         {
             "scene_idx": 31,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_011.mov",
-            "start_frame": 746,
-            "start_x": 39,
-            "start_y": 136,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_011.mov",
+            "start_frame": 535,
+            "start_x": 43,
+            "start_y": 20,
             "first": 4650,
-            "last": 4800
+            "last": 4799
         },
         {
             "scene_idx": 32,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_085.mov",
-            "start_frame": 436,
-            "start_x": 291,
-            "start_y": 132,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_085.mov",
+            "start_frame": 908,
+            "start_x": 11,
+            "start_y": 11,
             "first": 4800,
-            "last": 4950
+            "last": 4949
         },
         {
             "scene_idx": 33,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_074.mov",
-            "start_frame": 1365,
-            "start_x": 157,
-            "start_y": 137,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_074.mov",
+            "start_frame": 516,
+            "start_x": 6,
+            "start_y": 6,
             "first": 4950,
-            "last": 5100
+            "last": 5099
         },
         {
             "scene_idx": 34,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_030.mov",
-            "start_frame": 1535,
-            "start_x": 99,
-            "start_y": 21,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_030.mov",
+            "start_frame": 36,
+            "start_x": 54,
+            "start_y": 18,
             "first": 5100,
-            "last": 5250
+            "last": 5249
         },
         {
             "scene_idx": 35,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_133.mov",
-            "start_frame": 503,
-            "start_x": 169,
-            "start_y": 73,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_133.mov",
+            "start_frame": 1450,
+            "start_x": 37,
+            "start_y": 2,
             "first": 5250,
-            "last": 5400
+            "last": 5399
         },
         {
             "scene_idx": 36,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_037.mov",
-            "start_frame": 519,
-            "start_x": 232,
-            "start_y": 83,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_037.mov",
+            "start_frame": 746,
+            "start_x": 39,
+            "start_y": 1,
             "first": 5400,
-            "last": 5550
+            "last": 5549
         },
         {
             "scene_idx": 37,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_069.mov",
-            "start_frame": 975,
-            "start_x": 118,
-            "start_y": 1,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_069.mov",
+            "start_frame": 1416,
+            "start_x": 85,
+            "start_y": 20,
             "first": 5550,
-            "last": 5700
+            "last": 5699
         },
         {
             "scene_idx": 38,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_040.mov",
-            "start_frame": 803,
-            "start_x": 173,
-            "start_y": 115,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_040.mov",
+            "start_frame": 1488,
+            "start_x": 35,
+            "start_y": 4,
             "first": 5700,
-            "last": 5850
+            "last": 5849
         },
         {
             "scene_idx": 39,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_013.mov",
-            "start_frame": 448,
-            "start_x": 243,
-            "start_y": 45,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_013.mov",
+            "start_frame": 1365,
+            "start_x": 29,
+            "start_y": 15,
             "first": 5850,
-            "last": 6000
+            "last": 5999
         },
         {
             "scene_idx": 40,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_071.mov",
-            "start_frame": 1038,
-            "start_x": 120,
-            "start_y": 18,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_071.mov",
+            "start_frame": 181,
+            "start_x": 79,
+            "start_y": 9,
             "first": 6000,
-            "last": 6150
+            "last": 6149
         },
         {
             "scene_idx": 41,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_075.mov",
-            "start_frame": 855,
-            "start_x": 142,
-            "start_y": 80,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_075.mov",
+            "start_frame": 1535,
+            "start_x": 21,
+            "start_y": 23,
             "first": 6150,
-            "last": 6300
+            "last": 6299
         },
         {
             "scene_idx": 42,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_033.mov",
-            "start_frame": 960,
-            "start_x": 292,
-            "start_y": 120,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_033.mov",
+            "start_frame": 681,
+            "start_x": 73,
+            "start_y": 7,
             "first": 6300,
-            "last": 6450
+            "last": 6449
         },
         {
             "scene_idx": 43,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_026.mov",
-            "start_frame": 614,
-            "start_x": 91,
-            "start_y": 25,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_026.mov",
+            "start_frame": 744,
+            "start_x": 83,
+            "start_y": 15,
             "first": 6450,
-            "last": 6600
+            "last": 6599
         },
         {
             "scene_idx": 44,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_074.mov",
-            "start_frame": 1103,
-            "start_x": 86,
-            "start_y": 74,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_074.mov",
+            "start_frame": 1366,
+            "start_x": 1,
+            "start_y": 3,
             "first": 6600,
-            "last": 6750
+            "last": 6749
         },
         {
             "scene_idx": 45,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_115.mov",
-            "start_frame": 1361,
-            "start_x": 122,
-            "start_y": 52,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_115.mov",
+            "start_frame": 1413,
+            "start_x": 12,
+            "start_y": 13,
             "first": 6750,
-            "last": 6900
+            "last": 6899
         },
         {
             "scene_idx": 46,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_096.mov",
-            "start_frame": 1009,
-            "start_x": 82,
-            "start_y": 22,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_096.mov",
+            "start_frame": 448,
+            "start_x": 45,
+            "start_y": 14,
             "first": 6900,
-            "last": 7050
+            "last": 7049
         },
         {
             "scene_idx": 47,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_020.mov",
-            "start_frame": 212,
-            "start_x": 111,
-            "start_y": 38,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_020.mov",
+            "start_frame": 1144,
+            "start_x": 18,
+            "start_y": 23,
             "first": 7050,
-            "last": 7200
+            "last": 7199
         },
         {
             "scene_idx": 48,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_065.mov",
-            "start_frame": 597,
-            "start_x": 127,
-            "start_y": 136,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_065.mov",
+            "start_frame": 369,
+            "start_x": 14,
+            "start_y": 15,
             "first": 7200,
-            "last": 7350
+            "last": 7349
         },
         {
             "scene_idx": 49,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_033.mov",
-            "start_frame": 879,
-            "start_x": 208,
-            "start_y": 43,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_033.mov",
+            "start_frame": 80,
+            "start_x": 64,
+            "start_y": 22,
             "first": 7350,
-            "last": 7500
+            "last": 7499
         },
         {
             "scene_idx": 50,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_060.mov",
-            "start_frame": 1177,
-            "start_x": 76,
-            "start_y": 73,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_060.mov",
+            "start_frame": 614,
+            "start_x": 25,
+            "start_y": 15,
             "first": 7500,
-            "last": 7650
+            "last": 7649
         },
         {
             "scene_idx": 51,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_016.mov",
-            "start_frame": 979,
-            "start_x": 259,
-            "start_y": 75,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_016.mov",
+            "start_frame": 1110,
+            "start_x": 74,
+            "start_y": 17,
             "first": 7650,
-            "last": 7800
+            "last": 7799
         },
         {
             "scene_idx": 52,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_134.mov",
-            "start_frame": 300,
-            "start_x": 190,
-            "start_y": 154,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_134.mov",
+            "start_frame": 122,
+            "start_x": 52,
+            "start_y": 17,
             "first": 7800,
-            "last": 7950
+            "last": 7949
         },
         {
             "scene_idx": 53,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_108.mov",
-            "start_frame": 429,
-            "start_x": 15,
-            "start_y": 63,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_108.mov",
+            "start_frame": 82,
+            "start_x": 22,
+            "start_y": 20,
             "first": 7950,
-            "last": 8100
+            "last": 8099
         },
         {
             "scene_idx": 54,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_130.mov",
-            "start_frame": 1095,
-            "start_x": 250,
-            "start_y": 140,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_130.mov",
+            "start_frame": 111,
+            "start_x": 38,
+            "start_y": 8,
             "first": 8100,
-            "last": 8250
+            "last": 8249
         },
         {
             "scene_idx": 55,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_095.mov",
-            "start_frame": 971,
-            "start_x": 214,
-            "start_y": 93,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_095.mov",
+            "start_frame": 597,
+            "start_x": 53,
+            "start_y": 10,
             "first": 8250,
-            "last": 8400
+            "last": 8399
         },
         {
             "scene_idx": 56,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_105.mov",
-            "start_frame": 72,
-            "start_x": 161,
-            "start_y": 68,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_105.mov",
+            "start_frame": 970,
+            "start_x": 81,
+            "start_y": 7,
             "first": 8400,
-            "last": 8550
+            "last": 8549
         },
         {
             "scene_idx": 57,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_010.mov",
-            "start_frame": 652,
-            "start_x": 111,
-            "start_y": 29,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_010.mov",
+            "start_frame": 879,
+            "start_x": 87,
+            "start_y": 16,
             "first": 8550,
-            "last": 8700
+            "last": 8699
         },
         {
             "scene_idx": 58,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_050.mov",
-            "start_frame": 1347,
-            "start_x": 242,
-            "start_y": 24,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_050.mov",
+            "start_frame": 974,
+            "start_x": 36,
+            "start_y": 11,
             "first": 8700,
-            "last": 8850
+            "last": 8849
         },
         {
             "scene_idx": 59,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_050.mov",
-            "start_frame": 583,
-            "start_x": 36,
-            "start_y": 88,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_050.mov",
+            "start_frame": 1177,
+            "start_x": 76,
+            "start_y": 23,
             "first": 8850,
-            "last": 9000
+            "last": 8999
         },
         {
             "scene_idx": 60,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_058.mov",
-            "start_frame": 1052,
-            "start_x": 231,
-            "start_y": 96,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_058.mov",
+            "start_frame": 585,
+            "start_x": 83,
+            "start_y": 23,
             "first": 9000,
-            "last": 9150
+            "last": 9149
         },
         {
             "scene_idx": 61,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_021.mov",
-            "start_frame": 1575,
-            "start_x": 285,
-            "start_y": 87,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_021.mov",
+            "start_frame": 1337,
+            "start_x": 27,
+            "start_y": 3,
             "first": 9150,
-            "last": 9300
+            "last": 9299
         },
         {
             "scene_idx": 62,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_002.mov",
-            "start_frame": 174,
-            "start_x": 24,
-            "start_y": 2,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_002.mov",
+            "start_frame": 843,
+            "start_x": 44,
+            "start_y": 7,
             "first": 9300,
-            "last": 9450
+            "last": 9449
         },
         {
             "scene_idx": 63,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_112.mov",
-            "start_frame": 1146,
-            "start_x": 195,
-            "start_y": 130,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_112.mov",
+            "start_frame": 1214,
+            "start_x": 26,
+            "start_y": 13,
             "first": 9450,
-            "last": 9600
+            "last": 9599
         },
         {
             "scene_idx": 64,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_078.mov",
-            "start_frame": 1006,
-            "start_x": 247,
-            "start_y": 26,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_078.mov",
+            "start_frame": 527,
+            "start_x": 63,
+            "start_y": 7,
             "first": 9600,
-            "last": 9750
+            "last": 9749
         },
         {
             "scene_idx": 65,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_020.mov",
-            "start_frame": 504,
-            "start_x": 159,
-            "start_y": 155,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_020.mov",
+            "start_frame": 1274,
+            "start_x": 34,
+            "start_y": 9,
             "first": 9750,
-            "last": 9900
+            "last": 9899
         },
         {
             "scene_idx": 66,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_040.mov",
-            "start_frame": 651,
-            "start_x": 228,
-            "start_y": 115,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_040.mov",
+            "start_frame": 1471,
+            "start_x": 12,
+            "start_y": 7,
             "first": 9900,
-            "last": 10050
+            "last": 10049
         },
         {
             "scene_idx": 67,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_056.mov",
-            "start_frame": 772,
-            "start_x": 219,
-            "start_y": 103,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_056.mov",
+            "start_frame": 971,
+            "start_x": 86,
+            "start_y": 8,
             "first": 10050,
-            "last": 10200
+            "last": 10199
         },
         {
             "scene_idx": 68,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_075.mov",
-            "start_frame": 172,
-            "start_x": 43,
-            "start_y": 80,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_075.mov",
+            "start_frame": 652,
+            "start_x": 29,
+            "start_y": 3,
             "first": 10200,
-            "last": 10350
+            "last": 10349
         },
         {
             "scene_idx": 69,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_113.mov",
-            "start_frame": 1354,
-            "start_x": 277,
-            "start_y": 119,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_113.mov",
+            "start_frame": 242,
+            "start_x": 24,
+            "start_y": 7,
             "first": 10350,
-            "last": 10500
+            "last": 10499
         },
         {
             "scene_idx": 70,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_131.mov",
-            "start_frame": 1187,
-            "start_x": 269,
-            "start_y": 76,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_131.mov",
+            "start_frame": 36,
+            "start_x": 56,
+            "start_y": 6,
             "first": 10500,
-            "last": 10650
+            "last": 10649
         },
         {
             "scene_idx": 71,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_096.mov",
-            "start_frame": 973,
-            "start_x": 127,
-            "start_y": 69,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_096.mov",
+            "start_frame": 344,
+            "start_x": 28,
+            "start_y": 7,
             "first": 10650,
-            "last": 10800
+            "last": 10799
         },
         {
             "scene_idx": 72,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_050.mov",
-            "start_frame": 846,
-            "start_x": 183,
-            "start_y": 120,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_050.mov",
+            "start_frame": 608,
+            "start_x": 39,
+            "start_y": 5,
             "first": 10800,
-            "last": 10950
+            "last": 10949
         },
         {
             "scene_idx": 73,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_103.mov",
-            "start_frame": 235,
-            "start_x": 184,
-            "start_y": 120,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_103.mov",
+            "start_frame": 1111,
+            "start_x": 46,
+            "start_y": 6,
             "first": 10950,
-            "last": 11100
+            "last": 11099
         },
         {
             "scene_idx": 74,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_087.mov",
-            "start_frame": 1581,
-            "start_x": 176,
-            "start_y": 16,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_087.mov",
+            "start_frame": 536,
+            "start_x": 2,
+            "start_y": 3,
             "first": 11100,
-            "last": 11250
+            "last": 11249
         },
         {
             "scene_idx": 75,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_061.mov",
-            "start_frame": 1288,
-            "start_x": 107,
-            "start_y": 78,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_061.mov",
+            "start_frame": 1154,
+            "start_x": 26,
+            "start_y": 4,
             "first": 11250,
-            "last": 11400
+            "last": 11399
         },
         {
             "scene_idx": 76,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_065.mov",
-            "start_frame": 934,
-            "start_x": 205,
-            "start_y": 55,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_065.mov",
+            "start_frame": 1499,
+            "start_x": 27,
+            "start_y": 11,
             "first": 11400,
-            "last": 11550
+            "last": 11549
         },
         {
             "scene_idx": 77,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_034.mov",
-            "start_frame": 912,
-            "start_x": 218,
-            "start_y": 60,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_034.mov",
+            "start_frame": 228,
+            "start_x": 4,
+            "start_y": 7,
             "first": 11550,
-            "last": 11700
+            "last": 11699
         },
         {
             "scene_idx": 78,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_121.mov",
-            "start_frame": 571,
-            "start_x": 191,
-            "start_y": 99,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_121.mov",
+            "start_frame": 172,
+            "start_x": 43,
+            "start_y": 16,
             "first": 11700,
-            "last": 11850
+            "last": 11849
         },
         {
             "scene_idx": 79,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_024.mov",
-            "start_frame": 342,
-            "start_x": 173,
-            "start_y": 0,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_024.mov",
+            "start_frame": 1354,
+            "start_x": 21,
+            "start_y": 23,
             "first": 11850,
-            "last": 12000
+            "last": 11999
         },
         {
             "scene_idx": 80,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_009.mov",
-            "start_frame": 237,
-            "start_x": 173,
-            "start_y": 22,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_009.mov",
+            "start_frame": 1187,
+            "start_x": 13,
+            "start_y": 10,
             "first": 12000,
-            "last": 12150
+            "last": 12149
         },
         {
             "scene_idx": 81,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_099.mov",
-            "start_frame": 355,
-            "start_x": 246,
-            "start_y": 85,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_099.mov",
+            "start_frame": 1356,
+            "start_x": 77,
+            "start_y": 10,
             "first": 12150,
-            "last": 12300
+            "last": 12299
         },
         {
             "scene_idx": 82,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_073.mov",
-            "start_frame": 1219,
-            "start_x": 14,
-            "start_y": 63,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_073.mov",
+            "start_frame": 217,
+            "start_x": 69,
+            "start_y": 14,
             "first": 12300,
-            "last": 12450
+            "last": 12449
         },
         {
             "scene_idx": 83,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_054.mov",
-            "start_frame": 169,
-            "start_x": 45,
-            "start_y": 139,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_054.mov",
+            "start_frame": 907,
+            "start_x": 44,
+            "start_y": 23,
             "first": 12450,
-            "last": 12600
+            "last": 12599
         },
         {
             "scene_idx": 84,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_044.mov",
-            "start_frame": 1197,
-            "start_x": 288,
-            "start_y": 34,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_044.mov",
+            "start_frame": 632,
+            "start_x": 56,
+            "start_y": 13,
             "first": 12600,
-            "last": 12750
+            "last": 12749
         },
         {
             "scene_idx": 85,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_051.mov",
-            "start_frame": 370,
-            "start_x": 184,
-            "start_y": 103,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_051.mov",
+            "start_frame": 1481,
+            "start_x": 76,
+            "start_y": 16,
             "first": 12750,
-            "last": 12900
+            "last": 12899
         },
         {
             "scene_idx": 86,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_072.mov",
-            "start_frame": 853,
-            "start_x": 270,
-            "start_y": 62,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_072.mov",
+            "start_frame": 1040,
+            "start_x": 8,
+            "start_y": 11,
             "first": 12900,
-            "last": 13050
+            "last": 13049
         },
         {
             "scene_idx": 87,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_013.mov",
-            "start_frame": 154,
-            "start_x": 174,
-            "start_y": 126,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_013.mov",
+            "start_frame": 334,
+            "start_x": 38,
+            "start_y": 14,
             "first": 13050,
-            "last": 13200
+            "last": 13199
         },
         {
             "scene_idx": 88,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_055.mov",
-            "start_frame": 1494,
-            "start_x": 53,
-            "start_y": 62,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_055.mov",
+            "start_frame": 452,
+            "start_x": 56,
+            "start_y": 15,
             "first": 13200,
-            "last": 13350
+            "last": 13349
         },
         {
             "scene_idx": 89,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_113.mov",
-            "start_frame": 697,
-            "start_x": 73,
-            "start_y": 153,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_113.mov",
+            "start_frame": 1440,
+            "start_x": 77,
+            "start_y": 23,
             "first": 13350,
-            "last": 13500
+            "last": 13499
         },
         {
             "scene_idx": 90,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_102.mov",
-            "start_frame": 1291,
-            "start_x": 38,
-            "start_y": 37,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_102.mov",
+            "start_frame": 912,
+            "start_x": 60,
+            "start_y": 3,
             "first": 13500,
-            "last": 13650
+            "last": 13649
         },
         {
             "scene_idx": 91,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_034.mov",
-            "start_frame": 563,
-            "start_x": 198,
-            "start_y": 60,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_034.mov",
+            "start_frame": 342,
+            "start_x": 45,
+            "start_y": 0,
             "first": 13650,
-            "last": 13800
+            "last": 13799
         },
         {
             "scene_idx": 92,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_083.mov",
-            "start_frame": 347,
-            "start_x": 204,
-            "start_y": 151,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_083.mov",
+            "start_frame": 237,
+            "start_x": 45,
+            "start_y": 22,
             "first": 13800,
-            "last": 13950
+            "last": 13949
         },
         {
             "scene_idx": 93,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_070.mov",
-            "start_frame": 1460,
-            "start_x": 242,
-            "start_y": 143,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_070.mov",
+            "start_frame": 355,
+            "start_x": 35,
+            "start_y": 22,
             "first": 13950,
-            "last": 14100
+            "last": 14099
         },
         {
             "scene_idx": 94,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_002.mov",
-            "start_frame": 658,
-            "start_x": 135,
-            "start_y": 109,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_002.mov",
+            "start_frame": 1365,
+            "start_x": 67,
+            "start_y": 17,
             "first": 14100,
-            "last": 14250
+            "last": 14249
         },
         {
             "scene_idx": 95,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_125.mov",
-            "start_frame": 700,
-            "start_x": 5,
-            "start_y": 155,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_125.mov",
+            "start_frame": 1550,
+            "start_x": 63,
+            "start_y": 9,
             "first": 14250,
-            "last": 14400
+            "last": 14399
         },
         {
             "scene_idx": 96,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_011.mov",
-            "start_frame": 1064,
-            "start_x": 225,
-            "start_y": 136,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_011.mov",
+            "start_frame": 323,
+            "start_x": 65,
+            "start_y": 13,
             "first": 14400,
-            "last": 14550
+            "last": 14549
         },
         {
             "scene_idx": 97,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_043.mov",
-            "start_frame": 182,
-            "start_x": 293,
-            "start_y": 14,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_043.mov",
+            "start_frame": 139,
+            "start_x": 45,
+            "start_y": 0,
             "first": 14550,
-            "last": 14700
+            "last": 14699
         },
         {
             "scene_idx": 98,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_026.mov",
-            "start_frame": 375,
-            "start_x": 22,
-            "start_y": 155,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_026.mov",
+            "start_frame": 707,
+            "start_x": 34,
+            "start_y": 18,
             "first": 14700,
-            "last": 14850
+            "last": 14849
         },
         {
             "scene_idx": 99,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_006.mov",
-            "start_frame": 1405,
-            "start_x": 172,
-            "start_y": 6,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_006.mov",
+            "start_frame": 369,
+            "start_x": 56,
+            "start_y": 21,
             "first": 14850,
-            "last": 15000
+            "last": 14999
         },
         {
             "scene_idx": 100,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_084.mov",
-            "start_frame": 212,
-            "start_x": 275,
-            "start_y": 149,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_084.mov",
+            "start_frame": 1639,
+            "start_x": 85,
+            "start_y": 18,
             "first": 15000,
-            "last": 15150
+            "last": 15149
         },
         {
             "scene_idx": 101,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_031.mov",
-            "start_frame": 1383,
-            "start_x": 294,
-            "start_y": 143,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_031.mov",
+            "start_frame": 463,
+            "start_x": 14,
+            "start_y": 14,
             "first": 15150,
-            "last": 15300
+            "last": 15299
         },
         {
             "scene_idx": 102,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_040.mov",
-            "start_frame": 1596,
-            "start_x": 207,
-            "start_y": 114,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_040.mov",
+            "start_frame": 1150,
+            "start_x": 86,
+            "start_y": 7,
             "first": 15300,
-            "last": 15450
+            "last": 15449
         },
         {
             "scene_idx": 103,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_130.mov",
-            "start_frame": 1598,
-            "start_x": 147,
-            "start_y": 114,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_130.mov",
+            "start_frame": 1077,
+            "start_x": 62,
+            "start_y": 9,
             "first": 15450,
-            "last": 15600
+            "last": 15599
         },
         {
             "scene_idx": 104,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_037.mov",
-            "start_frame": 1021,
-            "start_x": 250,
-            "start_y": 42,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_037.mov",
+            "start_frame": 1433,
+            "start_x": 11,
+            "start_y": 6,
             "first": 15600,
-            "last": 15750
+            "last": 15749
         },
         {
             "scene_idx": 105,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_094.mov",
-            "start_frame": 494,
-            "start_x": 243,
-            "start_y": 149,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_094.mov",
+            "start_frame": 1187,
+            "start_x": 37,
+            "start_y": 19,
             "first": 15750,
-            "last": 15900
+            "last": 15899
         },
         {
             "scene_idx": 106,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_123.mov",
-            "start_frame": 677,
-            "start_x": 253,
-            "start_y": 147,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_123.mov",
+            "start_frame": 710,
+            "start_x": 60,
+            "start_y": 1,
             "first": 15900,
-            "last": 16050
+            "last": 16049
         },
         {
             "scene_idx": 107,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_079.mov",
-            "start_frame": 561,
-            "start_x": 299,
-            "start_y": 12,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_079.mov",
+            "start_frame": 347,
+            "start_x": 76,
+            "start_y": 23,
             "first": 16050,
-            "last": 16200
+            "last": 16199
         },
         {
             "scene_idx": 108,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_020.mov",
-            "start_frame": 1067,
-            "start_x": 282,
-            "start_y": 58,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_020.mov",
+            "start_frame": 1460,
+            "start_x": 15,
+            "start_y": 4,
             "first": 16200,
-            "last": 16350
+            "last": 16349
         },
         {
             "scene_idx": 109,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_126.mov",
-            "start_frame": 1556,
-            "start_x": 292,
-            "start_y": 138,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_126.mov",
+            "start_frame": 658,
+            "start_x": 7,
+            "start_y": 1,
             "first": 16350,
-            "last": 16500
+            "last": 16499
         },
         {
             "scene_idx": 110,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_110.mov",
-            "start_frame": 1324,
-            "start_x": 77,
-            "start_y": 63,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_110.mov",
+            "start_frame": 199,
+            "start_x": 11,
+            "start_y": 5,
             "first": 16500,
-            "last": 16650
+            "last": 16649
         },
         {
             "scene_idx": 111,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_111.mov",
-            "start_frame": 460,
-            "start_x": 232,
-            "start_y": 3,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_111.mov",
+            "start_frame": 724,
+            "start_x": 27,
+            "start_y": 8,
             "first": 16650,
-            "last": 16800
+            "last": 16799
         },
         {
             "scene_idx": 112,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_131.mov",
-            "start_frame": 1026,
-            "start_x": 190,
-            "start_y": 138,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_131.mov",
+            "start_frame": 1345,
+            "start_x": 8,
+            "start_y": 22,
             "first": 16800,
-            "last": 16950
+            "last": 16949
         },
         {
             "scene_idx": 113,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_078.mov",
-            "start_frame": 406,
-            "start_x": 93,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_078.mov",
+            "start_frame": 293,
+            "start_x": 84,
             "start_y": 14,
             "first": 16950,
-            "last": 17100
+            "last": 17099
         },
         {
             "scene_idx": 114,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_006.mov",
-            "start_frame": 1443,
-            "start_x": 207,
-            "start_y": 21,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_006.mov",
+            "start_frame": 375,
+            "start_x": 63,
+            "start_y": 15,
             "first": 17100,
-            "last": 17250
+            "last": 17249
         },
         {
             "scene_idx": 115,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_063.mov",
-            "start_frame": 130,
-            "start_x": 87,
-            "start_y": 1,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_063.mov",
+            "start_frame": 534,
+            "start_x": 85,
+            "start_y": 12,
             "first": 17250,
-            "last": 17400
+            "last": 17399
         },
         {
             "scene_idx": 116,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_087.mov",
-            "start_frame": 1267,
-            "start_x": 166,
-            "start_y": 1,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_087.mov",
+            "start_frame": 707,
+            "start_x": 6,
+            "start_y": 12,
             "first": 17400,
-            "last": 17550
+            "last": 17549
         },
         {
             "scene_idx": 117,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_059.mov",
-            "start_frame": 1396,
-            "start_x": 185,
-            "start_y": 85,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_059.mov",
+            "start_frame": 212,
+            "start_x": 19,
+            "start_y": 21,
             "first": 17550,
-            "last": 17700
+            "last": 17699
         },
         {
             "scene_idx": 118,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_078.mov",
-            "start_frame": 871,
-            "start_x": 69,
-            "start_y": 48,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_078.mov",
+            "start_frame": 1383,
+            "start_x": 38,
+            "start_y": 22,
             "first": 17700,
-            "last": 17850
+            "last": 17849
         },
         {
             "scene_idx": 119,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_068.mov",
-            "start_frame": 1075,
-            "start_x": 284,
-            "start_y": 75,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_068.mov",
+            "start_frame": 143,
+            "start_x": 60,
+            "start_y": 15,
             "first": 17850,
-            "last": 18000
+            "last": 17999
         },
         {
             "scene_idx": 120,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_124.mov",
-            "start_frame": 372,
-            "start_x": 133,
-            "start_y": 81,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_124.mov",
+            "start_frame": 1479,
+            "start_x": 62,
+            "start_y": 8,
             "first": 18000,
-            "last": 18150
+            "last": 18149
         },
         {
             "scene_idx": 121,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_073.mov",
-            "start_frame": 1178,
-            "start_x": 9,
-            "start_y": 106,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_073.mov",
+            "start_frame": 659,
+            "start_x": 58,
+            "start_y": 18,
             "first": 18150,
-            "last": 18300
+            "last": 18299
         },
         {
             "scene_idx": 122,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_010.mov",
-            "start_frame": 268,
-            "start_x": 209,
-            "start_y": 78,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_010.mov",
+            "start_frame": 1021,
+            "start_x": 81,
+            "start_y": 18,
             "first": 18300,
-            "last": 18450
+            "last": 18449
         },
         {
             "scene_idx": 123,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_082.mov",
-            "start_frame": 1502,
-            "start_x": 73,
-            "start_y": 80,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_082.mov",
+            "start_frame": 762,
+            "start_x": 42,
+            "start_y": 14,
             "first": 18450,
-            "last": 18600
+            "last": 18599
         },
         {
             "scene_idx": 124,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_023.mov",
-            "start_frame": 173,
-            "start_x": 218,
-            "start_y": 101,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_023.mov",
+            "start_frame": 677,
+            "start_x": 19,
+            "start_y": 17,
             "first": 18600,
-            "last": 18750
+            "last": 18749
         },
         {
             "scene_idx": 125,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_028.mov",
-            "start_frame": 374,
-            "start_x": 291,
-            "start_y": 122,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_028.mov",
+            "start_frame": 811,
+            "start_x": 12,
+            "start_y": 11,
             "first": 18750,
-            "last": 18900
+            "last": 18899
         },
         {
             "scene_idx": 126,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_043.mov",
-            "start_frame": 161,
-            "start_x": 115,
-            "start_y": 116,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_043.mov",
+            "start_frame": 307,
+            "start_x": 26,
+            "start_y": 20,
             "first": 18900,
-            "last": 19050
+            "last": 19049
         },
         {
             "scene_idx": 127,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_065.mov",
-            "start_frame": 1020,
-            "start_x": 178,
-            "start_y": 29,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_065.mov",
+            "start_frame": 1316,
+            "start_x": 57,
+            "start_y": 13,
             "first": 19050,
-            "last": 19200
+            "last": 19199
         },
         {
             "scene_idx": 128,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_107.mov",
-            "start_frame": 956,
-            "start_x": 160,
-            "start_y": 75,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_107.mov",
+            "start_frame": 210,
+            "start_x": 10,
+            "start_y": 12,
             "first": 19200,
-            "last": 19350
+            "last": 19349
         },
         {
             "scene_idx": 129,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_082.mov",
-            "start_frame": 1503,
-            "start_x": 275,
-            "start_y": 98,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_082.mov",
+            "start_frame": 1101,
+            "start_x": 63,
+            "start_y": 12,
             "first": 19350,
-            "last": 19500
+            "last": 19499
         },
         {
             "scene_idx": 130,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_077.mov",
-            "start_frame": 1226,
-            "start_x": 102,
-            "start_y": 11,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_077.mov",
+            "start_frame": 1283,
+            "start_x": 2,
+            "start_y": 21,
             "first": 19500,
-            "last": 19650
+            "last": 19649
         },
         {
             "scene_idx": 131,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_053.mov",
-            "start_frame": 1458,
-            "start_x": 81,
-            "start_y": 138,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_053.mov",
+            "start_frame": 702,
+            "start_x": 10,
+            "start_y": 22,
             "first": 19650,
-            "last": 19800
+            "last": 19799
         },
         {
             "scene_idx": 132,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_016.mov",
-            "start_frame": 530,
-            "start_x": 74,
-            "start_y": 46,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_016.mov",
+            "start_frame": 1629,
+            "start_x": 83,
+            "start_y": 14,
             "first": 19800,
-            "last": 19950
+            "last": 19949
         },
         {
             "scene_idx": 133,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_101.mov",
-            "start_frame": 1080,
-            "start_x": 266,
-            "start_y": 8,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_101.mov",
+            "start_frame": 1443,
+            "start_x": 51,
+            "start_y": 15,
             "first": 19950,
-            "last": 20100
+            "last": 20099
         },
         {
             "scene_idx": 134,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_091.mov",
-            "start_frame": 251,
-            "start_x": 84,
-            "start_y": 82,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_091.mov",
+            "start_frame": 1301,
+            "start_x": 2,
+            "start_y": 23,
             "first": 20100,
-            "last": 20250
+            "last": 20249
         },
         {
             "scene_idx": 135,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_065.mov",
-            "start_frame": 311,
-            "start_x": 120,
-            "start_y": 108,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_065.mov",
+            "start_frame": 497,
+            "start_x": 1,
+            "start_y": 12,
             "first": 20250,
-            "last": 20400
+            "last": 20399
         },
         {
             "scene_idx": 136,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_085.mov",
-            "start_frame": 1523,
-            "start_x": 25,
-            "start_y": 43,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_085.mov",
+            "start_frame": 1267,
+            "start_x": 38,
+            "start_y": 1,
             "first": 20400,
-            "last": 20550
+            "last": 20549
         },
         {
             "scene_idx": 137,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_125.mov",
-            "start_frame": 1401,
-            "start_x": 7,
-            "start_y": 137,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_125.mov",
+            "start_frame": 1396,
+            "start_x": 57,
+            "start_y": 21,
             "first": 20550,
-            "last": 20700
+            "last": 20699
         },
         {
             "scene_idx": 138,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_126.mov",
-            "start_frame": 166,
-            "start_x": 33,
-            "start_y": 85,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_126.mov",
+            "start_frame": 871,
+            "start_x": 69,
+            "start_y": 16,
             "first": 20700,
-            "last": 20850
+            "last": 20849
         },
         {
             "scene_idx": 139,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_025.mov",
-            "start_frame": 1459,
-            "start_x": 169,
-            "start_y": 31,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_025.mov",
+            "start_frame": 1075,
+            "start_x": 28,
+            "start_y": 11,
             "first": 20850,
-            "last": 21000
+            "last": 20999
         },
         {
             "scene_idx": 140,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_086.mov",
-            "start_frame": 1524,
-            "start_x": 269,
-            "start_y": 98,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_086.mov",
+            "start_frame": 372,
+            "start_x": 5,
+            "start_y": 17,
             "first": 21000,
-            "last": 21150
+            "last": 21149
         },
         {
             "scene_idx": 141,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_114.mov",
-            "start_frame": 1282,
-            "start_x": 203,
-            "start_y": 128,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_114.mov",
+            "start_frame": 1178,
+            "start_x": 9,
+            "start_y": 10,
             "first": 21150,
-            "last": 21300
+            "last": 21299
         },
         {
             "scene_idx": 142,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_085.mov",
-            "start_frame": 429,
-            "start_x": 289,
-            "start_y": 126,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_085.mov",
+            "start_frame": 268,
+            "start_x": 1,
+            "start_y": 17,
             "first": 21300,
-            "last": 21450
+            "last": 21449
         },
         {
             "scene_idx": 143,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_075.mov",
-            "start_frame": 98,
-            "start_x": 59,
-            "start_y": 78,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_075.mov",
+            "start_frame": 1614,
+            "start_x": 73,
+            "start_y": 1,
             "first": 21450,
-            "last": 21600
+            "last": 21599
         },
         {
             "scene_idx": 144,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_040.mov",
-            "start_frame": 964,
-            "start_x": 172,
-            "start_y": 69,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_040.mov",
+            "start_frame": 1188,
+            "start_x": 80,
+            "start_y": 13,
             "first": 21600,
-            "last": 21750
+            "last": 21749
         },
         {
             "scene_idx": 145,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_088.mov",
-            "start_frame": 1205,
-            "start_x": 0,
-            "start_y": 144,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_088.mov",
+            "start_frame": 218,
+            "start_x": 35,
+            "start_y": 4,
             "first": 21750,
-            "last": 21900
+            "last": 21899
         },
         {
             "scene_idx": 146,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_011.mov",
-            "start_frame": 360,
-            "start_x": 176,
-            "start_y": 22,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_011.mov",
+            "start_frame": 183,
+            "start_x": 86,
+            "start_y": 1,
             "first": 21900,
-            "last": 22050
+            "last": 22049
         },
         {
             "scene_idx": 147,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_096.mov",
-            "start_frame": 77,
-            "start_x": 37,
-            "start_y": 64,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_096.mov",
+            "start_frame": 1139,
+            "start_x": 72,
+            "start_y": 18,
             "first": 22050,
-            "last": 22200
+            "last": 22199
         },
         {
             "scene_idx": 148,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_128.mov",
-            "start_frame": 1407,
-            "start_x": 6,
-            "start_y": 119,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_128.mov",
+            "start_frame": 1180,
+            "start_x": 29,
+            "start_y": 0,
             "first": 22200,
-            "last": 22350
+            "last": 22349
         },
         {
             "scene_idx": 149,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_117.mov",
-            "start_frame": 1103,
-            "start_x": 162,
-            "start_y": 84,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_117.mov",
+            "start_frame": 1355,
+            "start_x": 36,
+            "start_y": 19,
             "first": 22350,
-            "last": 22500
+            "last": 22499
         },
         {
             "scene_idx": 150,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_033.mov",
-            "start_frame": 1225,
-            "start_x": 118,
-            "start_y": 5,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_033.mov",
+            "start_frame": 1378,
+            "start_x": 74,
+            "start_y": 6,
             "first": 22500,
-            "last": 22650
+            "last": 22649
         },
         {
             "scene_idx": 151,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_106.mov",
-            "start_frame": 530,
-            "start_x": 39,
-            "start_y": 78,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_106.mov",
+            "start_frame": 1458,
+            "start_x": 81,
+            "start_y": 10,
             "first": 22650,
-            "last": 22800
+            "last": 22799
         },
         {
             "scene_idx": 152,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_051.mov",
-            "start_frame": 1438,
-            "start_x": 90,
-            "start_y": 73,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_051.mov",
+            "start_frame": 530,
+            "start_x": 74,
+            "start_y": 14,
             "first": 22800,
-            "last": 22950
+            "last": 22949
         },
         {
             "scene_idx": 153,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_018.mov",
-            "start_frame": 721,
-            "start_x": 147,
-            "start_y": 63,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_018.mov",
+            "start_frame": 1080,
+            "start_x": 10,
+            "start_y": 8,
             "first": 22950,
-            "last": 23100
+            "last": 23099
         },
         {
             "scene_idx": 154,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_042.mov",
-            "start_frame": 19,
-            "start_x": 117,
-            "start_y": 44,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_042.mov",
+            "start_frame": 251,
+            "start_x": 84,
+            "start_y": 18,
             "first": 23100,
-            "last": 23250
+            "last": 23249
         },
         {
             "scene_idx": 155,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_095.mov",
-            "start_frame": 276,
-            "start_x": 84,
-            "start_y": 28,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_095.mov",
+            "start_frame": 311,
+            "start_x": 18,
+            "start_y": 10,
             "first": 23250,
-            "last": 23400
+            "last": 23399
         },
         {
             "scene_idx": 156,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_051.mov",
-            "start_frame": 292,
-            "start_x": 155,
-            "start_y": 71,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_051.mov",
+            "start_frame": 1579,
+            "start_x": 43,
+            "start_y": 22,
             "first": 23400,
-            "last": 23550
+            "last": 23549
         },
         {
             "scene_idx": 157,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_128.mov",
-            "start_frame": 926,
-            "start_x": 283,
-            "start_y": 30,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_128.mov",
+            "start_frame": 1031,
+            "start_x": 9,
+            "start_y": 6,
             "first": 23550,
-            "last": 23700
+            "last": 23699
         },
         {
             "scene_idx": 158,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_078.mov",
-            "start_frame": 838,
-            "start_x": 112,
-            "start_y": 103,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_078.mov",
+            "start_frame": 1569,
+            "start_x": 85,
+            "start_y": 5,
             "first": 23700,
-            "last": 23850
+            "last": 23849
         },
         {
             "scene_idx": 159,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_114.mov",
-            "start_frame": 930,
-            "start_x": 184,
-            "start_y": 149,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_114.mov",
+            "start_frame": 1459,
+            "start_x": 41,
+            "start_y": 0,
             "first": 23850,
-            "last": 24000
+            "last": 23999
         },
         {
             "scene_idx": 160,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_046.mov",
-            "start_frame": 262,
-            "start_x": 89,
-            "start_y": 49,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_046.mov",
+            "start_frame": 799,
+            "start_x": 13,
+            "start_y": 2,
             "first": 24000,
-            "last": 24150
+            "last": 24149
         },
         {
             "scene_idx": 161,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_023.mov",
-            "start_frame": 112,
-            "start_x": 230,
-            "start_y": 114,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_023.mov",
+            "start_frame": 1282,
+            "start_x": 75,
+            "start_y": 8,
             "first": 24150,
-            "last": 24300
+            "last": 24299
         },
         {
             "scene_idx": 162,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_106.mov",
-            "start_frame": 726,
-            "start_x": 127,
-            "start_y": 1,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_106.mov",
+            "start_frame": 721,
+            "start_x": 0,
+            "start_y": 13,
             "first": 24300,
-            "last": 24450
+            "last": 24449
         },
         {
             "scene_idx": 163,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_075.mov",
-            "start_frame": 812,
-            "start_x": 231,
-            "start_y": 115,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_075.mov",
+            "start_frame": 1343,
+            "start_x": 33,
+            "start_y": 2,
             "first": 24450,
-            "last": 24600
+            "last": 24599
         },
         {
             "scene_idx": 164,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_082.mov",
-            "start_frame": 986,
-            "start_x": 206,
-            "start_y": 109,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_082.mov",
+            "start_frame": 884,
+            "start_x": 37,
+            "start_y": 14,
             "first": 24600,
-            "last": 24750
+            "last": 24749
         },
         {
             "scene_idx": 165,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_034.mov",
-            "start_frame": 1643,
-            "start_x": 121,
-            "start_y": 75,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_034.mov",
+            "start_frame": 78,
+            "start_x": 68,
+            "start_y": 12,
             "first": 24750,
-            "last": 24900
+            "last": 24899
         },
         {
             "scene_idx": 166,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_088.mov",
-            "start_frame": 395,
-            "start_x": 47,
-            "start_y": 20,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_088.mov",
+            "start_frame": 837,
+            "start_x": 53,
+            "start_y": 0,
             "first": 24900,
-            "last": 25050
+            "last": 25049
         },
         {
             "scene_idx": 167,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_013.mov",
-            "start_frame": 1210,
-            "start_x": 124,
-            "start_y": 88,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_013.mov",
+            "start_frame": 1424,
+            "start_x": 48,
+            "start_y": 22,
             "first": 25050,
-            "last": 25200
+            "last": 25199
         },
         {
             "scene_idx": 168,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_055.mov",
-            "start_frame": 131,
-            "start_x": 87,
-            "start_y": 105,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_055.mov",
+            "start_frame": 77,
+            "start_x": 37,
+            "start_y": 0,
             "first": 25200,
-            "last": 25350
+            "last": 25349
         },
         {
             "scene_idx": 169,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_083.mov",
-            "start_frame": 1149,
-            "start_x": 262,
-            "start_y": 35,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_083.mov",
+            "start_frame": 1407,
+            "start_x": 6,
+            "start_y": 23,
             "first": 25350,
-            "last": 25500
+            "last": 25499
         },
         {
             "scene_idx": 170,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_095.mov",
-            "start_frame": 1328,
-            "start_x": 255,
-            "start_y": 19,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_095.mov",
+            "start_frame": 1103,
+            "start_x": 34,
+            "start_y": 23,
             "first": 25500,
-            "last": 25650
+            "last": 25649
         },
         {
             "scene_idx": 171,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_023.mov",
-            "start_frame": 840,
-            "start_x": 121,
-            "start_y": 109,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_023.mov",
+            "start_frame": 1108,
+            "start_x": 73,
+            "start_y": 22,
             "first": 25650,
-            "last": 25800
+            "last": 25799
         },
         {
             "scene_idx": 172,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_016.mov",
-            "start_frame": 216,
-            "start_x": 228,
-            "start_y": 130,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_016.mov",
+            "start_frame": 773,
+            "start_x": 18,
+            "start_y": 7,
             "first": 25800,
-            "last": 25950
+            "last": 25949
         },
         {
             "scene_idx": 173,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_121.mov",
-            "start_frame": 246,
-            "start_x": 33,
-            "start_y": 142,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_121.mov",
+            "start_frame": 1358,
+            "start_x": 30,
+            "start_y": 9,
             "first": 25950,
-            "last": 26100
+            "last": 26099
         },
         {
             "scene_idx": 174,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_075.mov",
-            "start_frame": 1214,
-            "start_x": 150,
-            "start_y": 84,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_075.mov",
+            "start_frame": 721,
+            "start_x": 19,
+            "start_y": 19,
             "first": 26100,
-            "last": 26250
+            "last": 26249
         },
         {
             "scene_idx": 175,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_089.mov",
-            "start_frame": 1303,
-            "start_x": 164,
-            "start_y": 50,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_089.mov",
+            "start_frame": 974,
+            "start_x": 17,
+            "start_y": 21,
             "first": 26250,
-            "last": 26400
+            "last": 26399
         },
         {
             "scene_idx": 176,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_054.mov",
-            "start_frame": 935,
-            "start_x": 3,
-            "start_y": 97,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_054.mov",
+            "start_frame": 1324,
+            "start_x": 20,
+            "start_y": 20,
             "first": 26400,
-            "last": 26550
+            "last": 26549
         },
         {
             "scene_idx": 177,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_045.mov",
-            "start_frame": 1104,
-            "start_x": 29,
-            "start_y": 8,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_045.mov",
+            "start_frame": 292,
+            "start_x": 19,
+            "start_y": 7,
             "first": 26550,
-            "last": 26700
+            "last": 26699
         },
         {
             "scene_idx": 178,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_015.mov",
-            "start_frame": 1250,
-            "start_x": 102,
-            "start_y": 127,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_015.mov",
+            "start_frame": 926,
+            "start_x": 27,
+            "start_y": 6,
             "first": 26700,
-            "last": 26850
+            "last": 26849
         },
         {
             "scene_idx": 179,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_032.mov",
-            "start_frame": 666,
-            "start_x": 293,
-            "start_y": 142,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_032.mov",
+            "start_frame": 624,
+            "start_x": 34,
+            "start_y": 21,
             "first": 26850,
-            "last": 27000
+            "last": 26999
         },
         {
             "scene_idx": 180,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_052.mov",
-            "start_frame": 667,
-            "start_x": 271,
-            "start_y": 49,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_052.mov",
+            "start_frame": 262,
+            "start_x": 49,
+            "start_y": 16,
             "first": 27000,
-            "last": 27150
+            "last": 27149
         },
         {
             "scene_idx": 181,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_013.mov",
-            "start_frame": 184,
-            "start_x": 141,
-            "start_y": 154,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_013.mov",
+            "start_frame": 742,
+            "start_x": 86,
+            "start_y": 4,
             "first": 27150,
-            "last": 27300
+            "last": 27299
         },
         {
             "scene_idx": 182,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_089.mov",
-            "start_frame": 1559,
-            "start_x": 253,
-            "start_y": 56,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_089.mov",
+            "start_frame": 1528,
+            "start_x": 1,
+            "start_y": 12,
             "first": 27300,
-            "last": 27450
+            "last": 27449
         },
         {
             "scene_idx": 183,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_089.mov",
-            "start_frame": 1523,
-            "start_x": 64,
-            "start_y": 127,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_089.mov",
+            "start_frame": 743,
+            "start_x": 59,
+            "start_y": 19,
             "first": 27450,
-            "last": 27600
+            "last": 27599
         },
         {
             "scene_idx": 184,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_086.mov",
-            "start_frame": 698,
-            "start_x": 165,
-            "start_y": 136,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_086.mov",
+            "start_frame": 986,
+            "start_x": 78,
+            "start_y": 13,
             "first": 27600,
-            "last": 27750
+            "last": 27749
         },
         {
             "scene_idx": 185,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_116.mov",
-            "start_frame": 1287,
-            "start_x": 40,
-            "start_y": 128,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_116.mov",
+            "start_frame": 1643,
+            "start_x": 75,
+            "start_y": 11,
             "first": 27750,
-            "last": 27900
+            "last": 27899
         },
         {
             "scene_idx": 186,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_085.mov",
-            "start_frame": 421,
-            "start_x": 161,
-            "start_y": 146,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_085.mov",
+            "start_frame": 1387,
+            "start_x": 47,
+            "start_y": 13,
             "first": 27900,
-            "last": 28050
+            "last": 28049
         },
         {
             "scene_idx": 187,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_055.mov",
-            "start_frame": 1522,
-            "start_x": 151,
-            "start_y": 56,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_055.mov",
+            "start_frame": 415,
+            "start_x": 57,
+            "start_y": 20,
             "first": 28050,
-            "last": 28200
+            "last": 28199
         },
         {
             "scene_idx": 188,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_033.mov",
-            "start_frame": 905,
-            "start_x": 70,
-            "start_y": 106,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_033.mov",
+            "start_frame": 1210,
+            "start_x": 3,
+            "start_y": 23,
             "first": 28200,
-            "last": 28350
+            "last": 28349
         },
         {
             "scene_idx": 189,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_086.mov",
-            "start_frame": 927,
-            "start_x": 4,
-            "start_y": 63,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_086.mov",
+            "start_frame": 767,
+            "start_x": 6,
+            "start_y": 12,
             "first": 28350,
-            "last": 28500
+            "last": 28499
         },
         {
             "scene_idx": 190,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_027.mov",
-            "start_frame": 982,
-            "start_x": 243,
-            "start_y": 86,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_027.mov",
+            "start_frame": 1315,
+            "start_x": 48,
+            "start_y": 19,
             "first": 28500,
-            "last": 28650
+            "last": 28649
         },
         {
             "scene_idx": 191,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_066.mov",
-            "start_frame": 1327,
-            "start_x": 3,
-            "start_y": 73,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_066.mov",
+            "start_frame": 840,
+            "start_x": 78,
+            "start_y": 22,
             "first": 28650,
-            "last": 28800
+            "last": 28799
         },
         {
             "scene_idx": 192,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_074.mov",
-            "start_frame": 128,
-            "start_x": 273,
-            "start_y": 125,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_074.mov",
+            "start_frame": 973,
+            "start_x": 48,
+            "start_y": 15,
             "first": 28800,
-            "last": 28950
+            "last": 28949
         },
         {
             "scene_idx": 193,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_096.mov",
-            "start_frame": 922,
-            "start_x": 116,
-            "start_y": 123,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_096.mov",
+            "start_frame": 216,
+            "start_x": 2,
+            "start_y": 22,
             "first": 28950,
-            "last": 29100
+            "last": 29099
         },
         {
             "scene_idx": 194,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_127.mov",
-            "start_frame": 421,
-            "start_x": 200,
-            "start_y": 30,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_127.mov",
+            "start_frame": 1569,
+            "start_x": 14,
+            "start_y": 2,
             "first": 29100,
-            "last": 29250
+            "last": 29249
         },
         {
             "scene_idx": 195,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_111.mov",
-            "start_frame": 848,
-            "start_x": 90,
-            "start_y": 21,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_111.mov",
+            "start_frame": 1214,
+            "start_x": 22,
+            "start_y": 20,
             "first": 29250,
-            "last": 29400
+            "last": 29399
         },
         {
             "scene_idx": 196,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_029.mov",
-            "start_frame": 1033,
-            "start_x": 109,
-            "start_y": 148,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_029.mov",
+            "start_frame": 1303,
+            "start_x": 36,
+            "start_y": 19,
             "first": 29400,
-            "last": 29550
+            "last": 29549
         },
         {
             "scene_idx": 197,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_049.mov",
-            "start_frame": 427,
-            "start_x": 224,
-            "start_y": 25,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_049.mov",
+            "start_frame": 306,
+            "start_x": 39,
+            "start_y": 3,
             "first": 29550,
-            "last": 29700
+            "last": 29699
         },
         {
             "scene_idx": 198,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_072.mov",
-            "start_frame": 976,
-            "start_x": 172,
-            "start_y": 70,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_072.mov",
+            "start_frame": 865,
+            "start_x": 80,
+            "start_y": 4,
             "first": 29700,
-            "last": 29850
+            "last": 29849
         },
         {
             "scene_idx": 199,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_062.mov",
-            "start_frame": 304,
-            "start_x": 93,
-            "start_y": 130,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_062.mov",
+            "start_frame": 1032,
+            "start_x": 26,
+            "start_y": 22,
             "first": 29850,
-            "last": 30000
+            "last": 29999
         },
         {
             "scene_idx": 200,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_032.mov",
-            "start_frame": 1211,
-            "start_x": 281,
-            "start_y": 55,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_032.mov",
+            "start_frame": 510,
+            "start_x": 37,
+            "start_y": 2,
             "first": 30000,
-            "last": 30150
+            "last": 30149
         },
         {
             "scene_idx": 201,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_036.mov",
-            "start_frame": 687,
-            "start_x": 27,
-            "start_y": 136,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_036.mov",
+            "start_frame": 910,
+            "start_x": 79,
+            "start_y": 14,
             "first": 30150,
-            "last": 30300
+            "last": 30299
         },
         {
             "scene_idx": 202,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_054.mov",
-            "start_frame": 296,
-            "start_x": 28,
-            "start_y": 4,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_054.mov",
+            "start_frame": 1429,
+            "start_x": 46,
+            "start_y": 15,
             "first": 30300,
-            "last": 30450
+            "last": 30449
         },
         {
             "scene_idx": 203,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_081.mov",
-            "start_frame": 1086,
-            "start_x": 146,
-            "start_y": 145,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_081.mov",
+            "start_frame": 561,
+            "start_x": 56,
+            "start_y": 20,
             "first": 30450,
-            "last": 30600
+            "last": 30599
         },
         {
             "scene_idx": 204,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_044.mov",
-            "start_frame": 106,
-            "start_x": 270,
-            "start_y": 11,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_044.mov",
+            "start_frame": 653,
+            "start_x": 26,
+            "start_y": 23,
             "first": 30600,
-            "last": 30750
+            "last": 30749
         },
         {
             "scene_idx": 205,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_037.mov",
-            "start_frame": 1518,
-            "start_x": 90,
-            "start_y": 112,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_037.mov",
+            "start_frame": 875,
+            "start_x": 56,
+            "start_y": 19,
             "first": 30750,
-            "last": 30900
+            "last": 30899
         },
         {
             "scene_idx": 206,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_067.mov",
-            "start_frame": 1335,
-            "start_x": 107,
-            "start_y": 18,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_067.mov",
+            "start_frame": 1600,
+            "start_x": 58,
+            "start_y": 5,
             "first": 30900,
-            "last": 31050
+            "last": 31049
         },
         {
             "scene_idx": 207,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_024.mov",
-            "start_frame": 1520,
-            "start_x": 283,
-            "start_y": 106,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_024.mov",
+            "start_frame": 1287,
+            "start_x": 40,
+            "start_y": 0,
             "first": 31050,
-            "last": 31200
+            "last": 31199
         },
         {
             "scene_idx": 208,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_067.mov",
-            "start_frame": 1274,
-            "start_x": 276,
-            "start_y": 87,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_067.mov",
+            "start_frame": 421,
+            "start_x": 33,
+            "start_y": 16,
             "first": 31200,
-            "last": 31350
+            "last": 31349
         },
         {
             "scene_idx": 209,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_064.mov",
-            "start_frame": 84,
-            "start_x": 252,
-            "start_y": 128,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_064.mov",
+            "start_frame": 658,
+            "start_x": 70,
+            "start_y": 20,
             "first": 31350,
-            "last": 31500
+            "last": 31499
         },
         {
             "scene_idx": 210,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_060.mov",
-            "start_frame": 1485,
-            "start_x": 12,
-            "start_y": 105,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_060.mov",
+            "start_frame": 1522,
+            "start_x": 35,
+            "start_y": 23,
             "first": 31500,
-            "last": 31650
+            "last": 31649
         },
         {
             "scene_idx": 211,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_039.mov",
-            "start_frame": 1398,
-            "start_x": 298,
-            "start_y": 153,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_039.mov",
+            "start_frame": 905,
+            "start_x": 26,
+            "start_y": 20,
             "first": 31650,
-            "last": 31800
+            "last": 31799
         },
         {
             "scene_idx": 212,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_118.mov",
-            "start_frame": 1206,
-            "start_x": 252,
-            "start_y": 14,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_118.mov",
+            "start_frame": 582,
+            "start_x": 31,
+            "start_y": 4,
             "first": 31800,
-            "last": 31950
+            "last": 31949
         },
         {
             "scene_idx": 213,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_008.mov",
-            "start_frame": 7,
-            "start_x": 288,
-            "start_y": 115,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_008.mov",
+            "start_frame": 982,
+            "start_x": 61,
+            "start_y": 19,
             "first": 31950,
-            "last": 32100
+            "last": 32099
         },
         {
             "scene_idx": 214,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_093.mov",
-            "start_frame": 839,
-            "start_x": 10,
-            "start_y": 93,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_093.mov",
+            "start_frame": 86,
+            "start_x": 47,
+            "start_y": 3,
             "first": 32100,
-            "last": 32250
+            "last": 32249
         },
         {
             "scene_idx": 215,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_030.mov",
-            "start_frame": 955,
-            "start_x": 221,
-            "start_y": 5,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_030.mov",
+            "start_frame": 449,
+            "start_x": 80,
+            "start_y": 3,
             "first": 32250,
-            "last": 32400
+            "last": 32399
         },
         {
             "scene_idx": 216,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_043.mov",
-            "start_frame": 766,
-            "start_x": 88,
-            "start_y": 13,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_043.mov",
+            "start_frame": 841,
+            "start_x": 0,
+            "start_y": 17,
             "first": 32400,
-            "last": 32550
+            "last": 32549
         },
         {
             "scene_idx": 217,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_104.mov",
-            "start_frame": 1584,
-            "start_x": 236,
-            "start_y": 105,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_104.mov",
+            "start_frame": 444,
+            "start_x": 85,
+            "start_y": 20,
             "first": 32550,
-            "last": 32700
+            "last": 32699
         },
         {
             "scene_idx": 218,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_083.mov",
-            "start_frame": 846,
-            "start_x": 21,
-            "start_y": 25,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_083.mov",
+            "start_frame": 1405,
+            "start_x": 26,
+            "start_y": 20,
             "first": 32700,
-            "last": 32850
+            "last": 32849
         },
         {
             "scene_idx": 219,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_075.mov",
-            "start_frame": 656,
-            "start_x": 8,
-            "start_y": 151,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_075.mov",
+            "start_frame": 445,
+            "start_x": 28,
+            "start_y": 6,
             "first": 32850,
-            "last": 33000
+            "last": 32999
         },
         {
             "scene_idx": 220,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_009.mov",
-            "start_frame": 906,
-            "start_x": 236,
-            "start_y": 51,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_009.mov",
+            "start_frame": 1147,
+            "start_x": 37,
+            "start_y": 8,
             "first": 33000,
-            "last": 33150
+            "last": 33149
         },
         {
             "scene_idx": 221,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_071.mov",
-            "start_frame": 1453,
-            "start_x": 259,
-            "start_y": 79,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_071.mov",
+            "start_frame": 798,
+            "start_x": 80,
+            "start_y": 6,
             "first": 33150,
-            "last": 33300
+            "last": 33299
         },
         {
             "scene_idx": 222,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_083.mov",
-            "start_frame": 532,
-            "start_x": 210,
-            "start_y": 46,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_083.mov",
+            "start_frame": 1114,
+            "start_x": 21,
+            "start_y": 9,
             "first": 33300,
-            "last": 33450
+            "last": 33449
         },
         {
             "scene_idx": 223,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_073.mov",
-            "start_frame": 1334,
-            "start_x": 136,
-            "start_y": 113,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_073.mov",
+            "start_frame": 1645,
+            "start_x": 20,
+            "start_y": 11,
             "first": 33450,
-            "last": 33600
+            "last": 33599
         },
         {
             "scene_idx": 224,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_045.mov",
-            "start_frame": 1603,
-            "start_x": 36,
-            "start_y": 129,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_045.mov",
+            "start_frame": 1248,
+            "start_x": 25,
+            "start_y": 16,
             "first": 33600,
-            "last": 33750
+            "last": 33749
         },
         {
             "scene_idx": 225,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_058.mov",
-            "start_frame": 1002,
-            "start_x": 130,
-            "start_y": 27,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_058.mov",
+            "start_frame": 1196,
+            "start_x": 70,
+            "start_y": 16,
             "first": 33750,
-            "last": 33900
+            "last": 33899
         },
         {
             "scene_idx": 226,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_017.mov",
-            "start_frame": 464,
-            "start_x": 2,
-            "start_y": 142,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_017.mov",
+            "start_frame": 93,
+            "start_x": 86,
+            "start_y": 2,
             "first": 33900,
-            "last": 34050
+            "last": 34049
         },
         {
             "scene_idx": 227,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_024.mov",
-            "start_frame": 448,
-            "start_x": 299,
-            "start_y": 90,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_024.mov",
+            "start_frame": 1211,
+            "start_x": 72,
+            "start_y": 23,
             "first": 34050,
-            "last": 34200
+            "last": 34199
         },
         {
             "scene_idx": 228,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_005.mov",
-            "start_frame": 971,
-            "start_x": 95,
-            "start_y": 55,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_005.mov",
+            "start_frame": 687,
+            "start_x": 27,
+            "start_y": 5,
             "first": 34200,
-            "last": 34350
+            "last": 34349
         },
         {
             "scene_idx": 229,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_121.mov",
-            "start_frame": 1490,
-            "start_x": 139,
-            "start_y": 73,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_121.mov",
+            "start_frame": 740,
+            "start_x": 51,
+            "start_y": 8,
             "first": 34350,
-            "last": 34500
+            "last": 34499
         },
         {
             "scene_idx": 230,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_005.mov",
-            "start_frame": 1167,
-            "start_x": 297,
-            "start_y": 70,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_005.mov",
+            "start_frame": 296,
+            "start_x": 87,
+            "start_y": 14,
             "first": 34500,
-            "last": 34650
+            "last": 34649
         },
         {
             "scene_idx": 231,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_048.mov",
-            "start_frame": 629,
-            "start_x": 274,
-            "start_y": 130,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_048.mov",
+            "start_frame": 1052,
+            "start_x": 4,
+            "start_y": 13,
             "first": 34650,
-            "last": 34800
+            "last": 34799
         },
         {
             "scene_idx": 232,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_008.mov",
-            "start_frame": 1350,
-            "start_x": 8,
-            "start_y": 105,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_008.mov",
+            "start_frame": 658,
+            "start_x": 70,
+            "start_y": 17,
             "first": 34800,
-            "last": 34950
+            "last": 34949
         },
         {
             "scene_idx": 233,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_081.mov",
-            "start_frame": 185,
-            "start_x": 46,
-            "start_y": 99,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_081.mov",
+            "start_frame": 106,
+            "start_x": 14,
+            "start_y": 11,
             "first": 34950,
-            "last": 35100
+            "last": 35099
         },
         {
             "scene_idx": 234,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_073.mov",
-            "start_frame": 1485,
-            "start_x": 92,
-            "start_y": 146,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_073.mov",
+            "start_frame": 1518,
+            "start_x": 78,
+            "start_y": 16,
             "first": 35100,
-            "last": 35250
+            "last": 35249
         },
         {
             "scene_idx": 235,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_111.mov",
-            "start_frame": 985,
-            "start_x": 277,
-            "start_y": 93,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_111.mov",
+            "start_frame": 1335,
+            "start_x": 41,
+            "start_y": 22,
             "first": 35250,
-            "last": 35400
+            "last": 35399
         },
         {
             "scene_idx": 236,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_002.mov",
-            "start_frame": 395,
-            "start_x": 111,
-            "start_y": 11,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_002.mov",
+            "start_frame": 786,
+            "start_x": 27,
+            "start_y": 3,
             "first": 35400,
-            "last": 35550
+            "last": 35549
         },
         {
             "scene_idx": 237,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_137.mov",
-            "start_frame": 129,
-            "start_x": 54,
-            "start_y": 49,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_137.mov",
+            "start_frame": 362,
+            "start_x": 20,
+            "start_y": 23,
             "first": 35550,
-            "last": 35700
+            "last": 35699
         },
         {
             "scene_idx": 238,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_061.mov",
-            "start_frame": 168,
-            "start_x": 48,
-            "start_y": 107,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_061.mov",
+            "start_frame": 84,
+            "start_x": 0,
+            "start_y": 2,
             "first": 35700,
-            "last": 35850
+            "last": 35849
         },
         {
             "scene_idx": 239,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_062.mov",
-            "start_frame": 225,
-            "start_x": 197,
-            "start_y": 8,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_062.mov",
+            "start_frame": 1485,
+            "start_x": 46,
+            "start_y": 7,
             "first": 35850,
-            "last": 36000
+            "last": 35999
         },
         {
             "scene_idx": 240,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_070.mov",
-            "start_frame": 467,
-            "start_x": 79,
-            "start_y": 131,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_070.mov",
+            "start_frame": 1548,
+            "start_x": 34,
+            "start_y": 9,
             "first": 36000,
-            "last": 36150
+            "last": 36149
         },
         {
             "scene_idx": 241,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_092.mov",
-            "start_frame": 580,
-            "start_x": 235,
-            "start_y": 108,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_092.mov",
+            "start_frame": 1398,
+            "start_x": 42,
+            "start_y": 14,
             "first": 36150,
-            "last": 36300
+            "last": 36299
         },
         {
             "scene_idx": 242,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_049.mov",
-            "start_frame": 1439,
-            "start_x": 260,
-            "start_y": 61,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_049.mov",
+            "start_frame": 153,
+            "start_x": 15,
+            "start_y": 22,
             "first": 36300,
-            "last": 36450
+            "last": 36449
         },
         {
             "scene_idx": 243,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_041.mov",
-            "start_frame": 1112,
-            "start_x": 298,
-            "start_y": 99,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_041.mov",
+            "start_frame": 1483,
+            "start_x": 74,
+            "start_y": 14,
             "first": 36450,
-            "last": 36600
+            "last": 36599
         },
         {
             "scene_idx": 244,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_124.mov",
-            "start_frame": 582,
-            "start_x": 228,
-            "start_y": 108,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_124.mov",
+            "start_frame": 7,
+            "start_x": 32,
+            "start_y": 10,
             "first": 36600,
-            "last": 36750
+            "last": 36749
         },
         {
             "scene_idx": 245,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_129.mov",
-            "start_frame": 1062,
-            "start_x": 29,
-            "start_y": 103,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_129.mov",
+            "start_frame": 1139,
+            "start_x": 71,
+            "start_y": 10,
             "first": 36750,
-            "last": 36900
+            "last": 36899
         },
         {
             "scene_idx": 246,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_103.mov",
-            "start_frame": 682,
-            "start_x": 62,
-            "start_y": 48,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_103.mov",
+            "start_frame": 229,
+            "start_x": 59,
+            "start_y": 13,
             "first": 36900,
-            "last": 37050
+            "last": 37049
         },
         {
             "scene_idx": 247,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_003.mov",
-            "start_frame": 88,
-            "start_x": 295,
-            "start_y": 78,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_003.mov",
+            "start_frame": 1541,
+            "start_x": 13,
+            "start_y": 0,
             "first": 37050,
-            "last": 37200
+            "last": 37199
         },
         {
             "scene_idx": 248,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_096.mov",
-            "start_frame": 1105,
-            "start_x": 111,
-            "start_y": 34,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_096.mov",
+            "start_frame": 1584,
+            "start_x": 42,
+            "start_y": 9,
             "first": 37200,
-            "last": 37350
+            "last": 37349
         },
         {
             "scene_idx": 249,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_034.mov",
-            "start_frame": 892,
-            "start_x": 5,
-            "start_y": 17,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_034.mov",
+            "start_frame": 846,
+            "start_x": 21,
+            "start_y": 6,
             "first": 37350,
-            "last": 37500
+            "last": 37499
         },
         {
             "scene_idx": 250,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_013.mov",
-            "start_frame": 80,
-            "start_x": 85,
-            "start_y": 98,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_013.mov",
+            "start_frame": 1049,
+            "start_x": 31,
+            "start_y": 17,
             "first": 37500,
-            "last": 37650
+            "last": 37649
         },
         {
             "scene_idx": 251,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_057.mov",
-            "start_frame": 1207,
-            "start_x": 115,
-            "start_y": 131,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_057.mov",
+            "start_frame": 656,
+            "start_x": 8,
+            "start_y": 23,
             "first": 37650,
-            "last": 37800
+            "last": 37799
         },
         {
             "scene_idx": 252,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_048.mov",
-            "start_frame": 1490,
-            "start_x": 65,
-            "start_y": 142,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_048.mov",
+            "start_frame": 906,
+            "start_x": 51,
+            "start_y": 12,
             "first": 37800,
-            "last": 37950
+            "last": 37949
         },
         {
             "scene_idx": 253,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_078.mov",
-            "start_frame": 223,
-            "start_x": 269,
-            "start_y": 22,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_078.mov",
+            "start_frame": 217,
+            "start_x": 51,
+            "start_y": 13,
             "first": 37950,
-            "last": 38100
+            "last": 38099
         },
         {
             "scene_idx": 254,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_080.mov",
-            "start_frame": 919,
-            "start_x": 49,
-            "start_y": 76,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_080.mov",
+            "start_frame": 259,
+            "start_x": 79,
+            "start_y": 20,
             "first": 38100,
-            "last": 38250
+            "last": 38249
         },
         {
             "scene_idx": 255,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_022.mov",
-            "start_frame": 626,
-            "start_x": 217,
-            "start_y": 34,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_022.mov",
+            "start_frame": 1070,
+            "start_x": 54,
+            "start_y": 18,
             "first": 38250,
-            "last": 38400
+            "last": 38399
         },
         {
             "scene_idx": 256,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_072.mov",
-            "start_frame": 172,
-            "start_x": 209,
-            "start_y": 76,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_072.mov",
+            "start_frame": 850,
+            "start_x": 8,
+            "start_y": 11,
             "first": 38400,
-            "last": 38550
+            "last": 38549
         },
         {
             "scene_idx": 257,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_012.mov",
-            "start_frame": 317,
-            "start_x": 244,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_012.mov",
+            "start_frame": 369,
+            "start_x": 67,
             "start_y": 4,
             "first": 38550,
-            "last": 38700
+            "last": 38699
         },
         {
             "scene_idx": 258,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_038.mov",
-            "start_frame": 1420,
-            "start_x": 92,
-            "start_y": 91,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_038.mov",
+            "start_frame": 162,
+            "start_x": 1,
+            "start_y": 22,
             "first": 38700,
-            "last": 38850
+            "last": 38849
         },
         {
             "scene_idx": 259,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_015.mov",
-            "start_frame": 1628,
-            "start_x": 61,
-            "start_y": 91,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_015.mov",
+            "start_frame": 1002,
+            "start_x": 2,
+            "start_y": 16,
             "first": 38850,
-            "last": 39000
+            "last": 38999
         },
         {
             "scene_idx": 260,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_117.mov",
-            "start_frame": 270,
-            "start_x": 285,
-            "start_y": 9,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_117.mov",
+            "start_frame": 1026,
+            "start_x": 14,
+            "start_y": 0,
             "first": 39000,
-            "last": 39150
+            "last": 39149
         },
         {
             "scene_idx": 261,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_045.mov",
-            "start_frame": 781,
-            "start_x": 28,
-            "start_y": 126,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_045.mov",
+            "start_frame": 863,
+            "start_x": 43,
+            "start_y": 15,
             "first": 39150,
-            "last": 39300
+            "last": 39299
         },
         {
             "scene_idx": 262,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_108.mov",
-            "start_frame": 499,
-            "start_x": 53,
-            "start_y": 133,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_108.mov",
+            "start_frame": 90,
+            "start_x": 75,
+            "start_y": 23,
             "first": 39300,
-            "last": 39450
+            "last": 39449
         },
         {
             "scene_idx": 263,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_080.mov",
-            "start_frame": 520,
-            "start_x": 138,
-            "start_y": 2,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_080.mov",
+            "start_frame": 1490,
+            "start_x": 15,
+            "start_y": 11,
             "first": 39450,
-            "last": 39600
+            "last": 39599
         },
         {
             "scene_idx": 264,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_013.mov",
-            "start_frame": 1023,
-            "start_x": 165,
-            "start_y": 122,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_013.mov",
+            "start_frame": 73,
+            "start_x": 15,
+            "start_y": 9,
             "first": 39600,
-            "last": 39750
+            "last": 39749
         },
         {
             "scene_idx": 265,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_049.mov",
-            "start_frame": 293,
-            "start_x": 160,
-            "start_y": 10,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_049.mov",
+            "start_frame": 1220,
+            "start_x": 70,
+            "start_y": 21,
             "first": 39750,
-            "last": 39900
+            "last": 39899
         },
         {
             "scene_idx": 266,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_012.mov",
-            "start_frame": 5,
-            "start_x": 226,
-            "start_y": 92,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_012.mov",
+            "start_frame": 1510,
+            "start_x": 2,
+            "start_y": 14,
             "first": 39900,
-            "last": 40050
+            "last": 40049
         },
         {
             "scene_idx": 267,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_054.mov",
-            "start_frame": 13,
-            "start_x": 60,
-            "start_y": 132,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_054.mov",
+            "start_frame": 1350,
+            "start_x": 56,
+            "start_y": 8,
             "first": 40050,
-            "last": 40200
+            "last": 40199
         },
         {
             "scene_idx": 268,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_017.mov",
-            "start_frame": 537,
-            "start_x": 136,
-            "start_y": 31,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_017.mov",
+            "start_frame": 432,
+            "start_x": 57,
+            "start_y": 14,
             "first": 40200,
-            "last": 40350
+            "last": 40349
         },
         {
             "scene_idx": 269,
-            "file_name_orig": "../data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_057.mov",
-            "start_frame": 1564,
-            "start_x": 95,
-            "start_y": 155,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/KOYAANISQATSI/koyqatsi_057.mov",
+            "start_frame": 1123,
+            "start_x": 30,
+            "start_y": 13,
             "first": 40350,
-            "last": 40500
+            "last": 40499
         },
         {
             "scene_idx": 270,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_065.mov",
-            "start_frame": 128,
-            "start_x": 262,
-            "start_y": 75,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_065.mov",
+            "start_frame": 92,
+            "start_x": 18,
+            "start_y": 21,
             "first": 40500,
-            "last": 40650
+            "last": 40649
         },
         {
             "scene_idx": 271,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_007.mov",
-            "start_frame": 1449,
-            "start_x": 146,
-            "start_y": 70,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_007.mov",
+            "start_frame": 1117,
+            "start_x": 11,
+            "start_y": 15,
             "first": 40650,
-            "last": 40800
+            "last": 40799
         },
         {
             "scene_idx": 272,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_004.mov",
-            "start_frame": 370,
-            "start_x": 148,
-            "start_y": 0,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_004.mov",
+            "start_frame": 1035,
+            "start_x": 1,
+            "start_y": 6,
             "first": 40800,
-            "last": 40950
+            "last": 40949
         },
         {
             "scene_idx": 273,
-            "file_name_orig": "../data/original/Holly - HighRes/POWAQQATSI/poqatsi_027.mov",
-            "start_frame": 890,
-            "start_x": 24,
-            "start_y": 21,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/POWAQQATSI/poqatsi_027.mov",
+            "start_frame": 1078,
+            "start_x": 49,
+            "start_y": 8,
             "first": 40950,
-            "last": 41100
+            "last": 41099
         },
         {
             "scene_idx": 274,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_040.mov",
-            "start_frame": 394,
-            "start_x": 282,
-            "start_y": 33,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_040.mov",
+            "start_frame": 1072,
+            "start_x": 69,
+            "start_y": 8,
             "first": 41100,
-            "last": 41250
+            "last": 41249
         },
         {
             "scene_idx": 275,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_039.mov",
-            "start_frame": 1483,
-            "start_x": 29,
-            "start_y": 139,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_039.mov",
+            "start_frame": 467,
+            "start_x": 79,
+            "start_y": 3,
             "first": 41250,
-            "last": 41400
+            "last": 41399
         },
         {
             "scene_idx": 276,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_037.mov",
-            "start_frame": 1292,
-            "start_x": 80,
-            "start_y": 31,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_037.mov",
+            "start_frame": 580,
+            "start_x": 35,
+            "start_y": 11,
             "first": 41400,
-            "last": 41550
+            "last": 41549
         },
         {
             "scene_idx": 277,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_003.mov",
-            "start_frame": 1620,
-            "start_x": 60,
-            "start_y": 106,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_003.mov",
+            "start_frame": 1644,
+            "start_x": 31,
+            "start_y": 6,
             "first": 41550,
-            "last": 41700
+            "last": 41699
         },
         {
             "scene_idx": 278,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_034.mov",
-            "start_frame": 510,
-            "start_x": 191,
-            "start_y": 26,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_034.mov",
+            "start_frame": 498,
+            "start_x": 4,
+            "start_y": 10,
             "first": 41700,
-            "last": 41850
+            "last": 41849
         },
         {
             "scene_idx": 279,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_136.mov",
-            "start_frame": 1407,
-            "start_x": 176,
-            "start_y": 31,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_136.mov",
+            "start_frame": 355,
+            "start_x": 43,
+            "start_y": 6,
             "first": 41850,
-            "last": 42000
+            "last": 41999
         },
         {
             "scene_idx": 280,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_116.mov",
-            "start_frame": 625,
-            "start_x": 11,
-            "start_y": 89,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_116.mov",
+            "start_frame": 398,
+            "start_x": 38,
+            "start_y": 7,
             "first": 42000,
-            "last": 42150
+            "last": 42149
         },
         {
             "scene_idx": 281,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_047.mov",
-            "start_frame": 648,
-            "start_x": 91,
-            "start_y": 27,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_047.mov",
+            "start_frame": 682,
+            "start_x": 62,
+            "start_y": 16,
             "first": 42150,
-            "last": 42300
+            "last": 42299
         },
         {
             "scene_idx": 282,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Revolutions/matrixrv_047.mov",
-            "start_frame": 250,
-            "start_x": 150,
-            "start_y": 88,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Revolutions/matrixrv_047.mov",
+            "start_frame": 88,
+            "start_x": 48,
+            "start_y": 7,
             "first": 42300,
-            "last": 42450
+            "last": 42449
         },
         {
             "scene_idx": 283,
-            "file_name_orig": "../data/original/Holly - HighRes/Starwars/starwars_080.mov",
-            "start_frame": 1641,
-            "start_x": 191,
-            "start_y": 53,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Starwars/starwars_080.mov",
+            "start_frame": 1358,
+            "start_x": 81,
+            "start_y": 15,
             "first": 42450,
-            "last": 42600
+            "last": 42599
         },
         {
             "scene_idx": 284,
-            "file_name_orig": "../data/original/Holly - HighRes/MadMax/MadMax_009.mov",
-            "start_frame": 194,
-            "start_x": 70,
-            "start_y": 13,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/MadMax/MadMax_009.mov",
+            "start_frame": 546,
+            "start_x": 5,
+            "start_y": 5,
             "first": 42600,
-            "last": 42750
+            "last": 42749
         },
         {
             "scene_idx": 285,
-            "file_name_orig": "../data/original/Holly - HighRes/NAQOYQATSI/naqatsi_052.mov",
-            "start_frame": 963,
-            "start_x": 227,
-            "start_y": 109,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/NAQOYQATSI/naqatsi_052.mov",
+            "start_frame": 785,
+            "start_x": 80,
+            "start_y": 1,
             "first": 42750,
-            "last": 42900
+            "last": 42899
         },
         {
             "scene_idx": 286,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix Reloaded/matrixrl_014.mov",
-            "start_frame": 1562,
-            "start_x": 277,
-            "start_y": 117,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix Reloaded/matrixrl_014.mov",
+            "start_frame": 85,
+            "start_x": 29,
+            "start_y": 13,
             "first": 42900,
-            "last": 43050
+            "last": 43049
         },
         {
             "scene_idx": 287,
-            "file_name_orig": "../data/original/Holly - HighRes/Matrix/matrix_092.mov",
-            "start_frame": 1610,
-            "start_x": 266,
-            "start_y": 116,
+            "file_name_orig": "../../hollywood_movies_02/data/original/Holly - HighRes/Matrix/matrix_092.mov",
+            "start_frame": 685,
+            "start_x": 72,
+            "start_y": 23,
             "first": 43050,
-            "last": 43200
+            "last": 43199
         }
     ]
 }

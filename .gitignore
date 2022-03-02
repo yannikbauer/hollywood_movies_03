@@ -8,6 +8,7 @@
 /data/original/*
 /data/processed/scenes/*
 /data/processed/sequences/*
+/data/processed/meta/Icon
 
 # Exceptions for specific files
 /data/original/INFO.md

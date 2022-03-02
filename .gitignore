@@ -10,6 +10,7 @@
 /data/processed/sequences/*
 
 # Exceptions for specific files
+/data/original/INFO.md
 !/data/processed/meta/*
 !/data/processed/meta/RandomSequences.txt
 !/data/processed/meta/hmovTestMeta.json

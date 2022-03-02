@@ -6,7 +6,8 @@
 # Ignore specific folders
 /code/.idea/
 /data/original/*
-/data/processed/*
+/data/processed/scenes/*
+/data/processed/sequences/*
 
 # Exceptions for specific files
 !/data/processed/meta/*

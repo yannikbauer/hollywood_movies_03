@@ -12,6 +12,8 @@
 !/data/processed/meta/RandomSequences.txt
 !/data/processed/meta/hmovTestMeta.json
 !/data/processed/meta/hmovTrainMeta.json
+!/data/processed/scenes/hmovTest_v3_424x264_scene-001.avi
+!/data/processed/sequencs/hmovTest.avi
 
 # Ignore file types
 *.DS_store

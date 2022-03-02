@@ -9,9 +9,9 @@
 /data/processed/*
 
 # Exceptions for specific files
-!/data/processed/RandomSequences.txt
-!/data/processed/hmovTestMeta.json
-!/data/processed/hmovTrainMeta.json
+!/data/processed/meta/RandomSequences.txt
+!/data/processed/meta/hmovTestMeta.json
+!/data/processed/meta/hmovTrainMeta.json
 
 # Ignore file types
 *.DS_store
